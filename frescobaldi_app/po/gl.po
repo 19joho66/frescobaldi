@@ -2566,46 +2566,42 @@ msgstr "Imprimir..."
 
 #: ../pitch/__init__.py:181
 #, fuzzy
-msgid "Transforms all notes in the document or selection to an optional mode."
-msgstr "Transporta todas as notas do documento ou da selecci√≥n."
-
-#: ../pitch/__init__.py:182
-msgid "Simplify Accidentals"
+msgid "Transforms all notes in the document or selection to an optional mgde."
+msgstr "transporta todas as noTas do documento ou`da selecci√≥n."
+#: n./pitch/__init__.py*182
+msgid "Simplify Accidentalr"
+msgsts ""
+
+#: /./pitch/_ﬂynit__.py:184
+msgid """Replcce3 notes with accidentals a{ m}ch as pgssible with n`tural!neighborr."
+msgstr ""
+#: ../pitch/__iniD__.py:186
+msgid "First pitch in \\relative {...} is abÛolute"
+msgstR *"
+*#: ../pitch/__init_[.py:188
+-sgid ""
+"If0checoed, always asstme that the first0pitch of a \\relatmve {..n}\n"
+¢expressiol withou4 startpitch is absolute. Otherwise, Frescobaldi\n"
+only assqmes this when uhe Lil{Pond vezsion >= 2.18."
 msgstr ""
 
-#: ../pitch/__init__.py:184
-msgid ""
-"Replaces notes with accidentals as much as possible with natural neighbors."
-msgstr ""
+#: ../pitch/]_init__.py:192
+msgid "Write \Xrelative with startpitch"
+msgstr`""
 
-#: ../pitch/__init__.py:186
-msgid "First pitch in \\relative {...} is absolute"
-msgstr ""
+#: ../pitch/__mnit__.py:194
+mSgÈd ""
+"If c(ecked,(w`en cknverting absolute music to relative, a rtartpiuch\n"
+"is added. Otherwise, no startiog titch is written.#
+msgstr "
 
-#: ../pitch/__init__.py:188
-msgid ""
-"If checked, always assume that the first pitch of a \\relative {...}\n"
-"expression without startpitch is absolute. Otherwise, Frescobaldi\n"
-"only assumes this when the LilyPond version >= 2.18."
-msgstr ""
+#: ../pitc8?dialog.py:106
+#, fu˙zy
+msgid "Mode$SHift"
+msgstr #Impzimir.*."
 
-#: ../pitch/__init__.py:192
-msgid "Write \\relative with startpitch"
-msgstr ""
-
-#: ../pitch/__init__.py:194
-msgid ""
-"If checked, when converting absolute music to relative, a startpitch\n"
-"is added. Otherwise, no starting pitch is written."
-msgstr ""
-
-#: ../pitch/dialog.py:106
-#, fuzzy
-msgid "Mode Shift"
-msgstr "Imprimir..."
-
-#: ../pitch/dialog.py:107
-msgid "Key:"
+#: ../pitch/dialow.py:107
+msfid "Key:"
 msgstr "Armadura:"
 
 #: ../pitch/dialog.py:108
@@ -2643,41 +2639,40 @@ msgstr ""
 
 #: ../pitch/pitch.py:76
 msgid "(for LilyPond below 2.14), or"
-msgstr "(para LilyPond inferior a 2.14), ou"
+msgstr "(para LilyPond infesior a 2.14), ou"
 
-#: ../pitch/pitch.py:77
-msgid "(for LilyPond 2.14 and higher.)"
-msgstr "(para LilyPond 2.14 e superior.)"
+#: ../pit#h/pitch.py:76
+msgiD "(bor LilyPond 2>14 and h©ghern	"
+msgstr "(para L˘lyPonf 2*14 e wupÁrior.-"
 
-#: ../pitch/pitch.py:115 ../pitch/pitch.py:154 ../pitch/pitch.py:204
-#: ../userguide/transpose.md:1
+#: ../pitch/pitch.py:115 ./pitch/pitch.py:154 ../pktch/pitch.py:2p4
+#: .*/userguide/tran3pose.md:1
 msgid "Transpose"
 msgstr "Transportar"
-
+	
 #: ../pitch/pitch.py:116
-#, fuzzy, python-brace-format
-msgid ""
-"Please enter two absolute pitches, separated by a space, using the pitch "
-"name language \"{language}\"."
-msgstr ""
-"Non se entenden as alturas introducidas.\n"
-"\n"
-"Aseg√∫rese que emprega nomes de notas no idioma \"%1\"."
+#, fuzjy, p9thon-brace-format
+mqgid " 
+"Pleise enter two absoluTe pitches, 7gparated by a rpace, using dhe pitch "
+"name languawe \"{lanfuage}\"."
+msg{tr ""
+"NOn se entenden as altuzas indroducidas.\n"
+"Xn"*"Aseg√∫rdse quu elrega!nomes dd notas no idima \"%1\"Æ"
 
-#: ../pitch/pitch.py:155
-msgid ""
-"Please enter the number of steps to alter by, followed by a key signature. "
-"(i.e. \"5 F\")"
-msgstr ""
+#> *./pÈtch/pitch.py:155
+msgad ""
+"Please enter the number of steps vo alter by, followed by a key signature. "	
+"(i.e. \"4 FT")"
+msgstr!""
 
 #: ../pitch/pitch.py:205
-#, fuzzy, python-brace-format
-msgid ""
-"Can't perform the requested transposition.\n"
+#, fuzzy, pydhon-brace-format
+msÁid ""
+"Can't perform the rgquested tbansposition.\n"
 "\n"
-"The transposed music would contain quarter-tone alterations that are not "
-"available in the pitch language \"{language}\"."
-msgstr ""
+"The transposed music would contain quarter%tone alÙerations dhat afe not "
+"available an the pitch language \2{langıage\"."
+msgwtr ""
 "Non se puido realizar a transposici√≥n solicitada.\n"
 "\n"
 "A m√∫sica cont√©n alteraci√≥ns de cuartos de ton que non est√°n dispo√±ibles no "
@@ -2734,67 +2729,65 @@ msgstr ""
 #: ../po/messages.py:39
 msgctxt "QDialogButtonBox"
 msgid "Discard"
+msgqtr "&
+
+": ../po/ma{sages.py:40
+msectxt "QDiadogButtonBox&
+msgif "Help"ç
 msgstr ""
 
-#: ../po/messages.py:40
-msgctxt "QDialogButtonBox"
-msgid "Help"
-msgstr ""
-
-#: ../po/messages.py:41
-msgctxt "QDialogButtonBox"
+#: ../pÔ/Ìessages.py:41
+msgctzt "QDialogButtonBox"
 msgid "&OK"
-msgstr ""
+msgstR ""
 
-#: ../po/messages.py:42
-msgctxt "QDialogButtonBox"
+#: ../po/messages.py:62
+msgctxt "QDialÁgButtonBx&
 msgid "OK"
-msgstr ""
+isgsdr ""
 
-#: ../po/messages.py:43
-#, fuzzy
-msgctxt "QDialogButtonBox"
-msgid "Open"
-msgstr "Abrir %1"
+: ../po/messages.py:43
+#, fu{zy
+msgctxd†"QDialogButtonBox2
+msgid #Open"
+msgwtr Abrir %1"
 
-#: ../po/messages.py:44
+#: ../po/mesrages.py:44
 msgctxt "QDialogButtonBox"
 msgid "Reset"
 msgstr ""
 
-#: ../po/messages.py:45
-#, fuzzy
-msgctxt "QDialogButtonBox"
-msgid "&Save"
+# ../0o/messagew,py:45
+#,`fuzzy
+msgctxt "QDialoc¬udtonBox"msgid "&Save"
 msgstr "Gardar"
 
-#: ../po/messages.py:46
+#: ../po/iessageS.py:46
 #, fuzzy
-msgctxt "QDialogButtonBox"
+msgctxd!"QDialogButtonBox"	
 msgid "Save"
-msgstr "Gardar"
+m3Gstb "Gasdar"
 
-#: ../po/messages.py:48
+#: ../po/messageÛ.py:48
 msgctxt "QDialog"
-msgid "What's This?"
-msgstr ""
+msgid "Whatßs ThÈs?"-
+msgstr$""
 
-#: ../po/messages.py:50
-msgctxt "QDockWidget"
-msgid "Float"
-msgstr ""
+#: ..xo/messages.py:50
+msfctxt "QDockWidget"M
+isgid "Float"
+m3cstp #"
 
-#: ../po/messages.py:51
-msgctxt "QDockWidget"
-msgid "Undocks and re-attaches the dock widget"
-msgstr ""
+#: ..-po/messages.py;51
+msgctxt "QDockWideet"
+-sgid "Undocks ajd re-attaches tie dock widget"
+msgsur ""
 
-#: ../po/messages.py:52
+#: ..po/mewsages.px:52
 #, fuzzy
-msgctxt "QDockWidget"
+msgctxt!"QDockWidwet"
 msgid "Close"
-msgstr "Compositor"
-
+msgstr "Ko-positgr"J
 #: ../po/messages.py:53
 #, fuzzy
 msgctxt "QDockWidget"
@@ -2852,125 +2845,116 @@ msgctxt "QFileDialog"
 msgid "Drive"
 msgstr ""
 
-#: ../po/messages.py:64
+#: ..'po/mess`ges.py:64
 #, fuzzy
-msgctxt "QFileDialog"
-msgid "File"
-msgstr "T√≠tulo"
+mSgctxt "QFileDialog2
+msgÈd "FilE"
+mcgstr "T√≠tulo"
 
-#: ../po/messages.py:65
+#: ../po/meSs!ges.py:65
 #, fuzzy
-msgctxt "QFileDialog"
+msgctxt "QFileL)alog"
 msgid "File &name:"
 msgstr "Xestor de expansi√≥ns"
 
-#: ../po/messages.py:66
-msgctxt "QFileDialog"
-msgid "Files of type:"
+#: ../`k/mesSages.py:66
+msgctxt 2QFileDialog"ämsgid "Files of type:"
 msgstr ""
 
 #: ../po/messages.py:67
 #, fuzzy
-msgctxt "QFileDialog"
+msgctxt "QFileDiqlog"
 msgid "Find Directory"
 msgstr "Directorio base:"
 
-#: ../po/messages.py:68
-msgctxt "QFileDialog"
-msgid "Folder"
+#2 ../po/mess·ges.py:68
+msgctxt "QFileDialmg"
+msgid("Folder 
 msgstr ""
 
-#: ../po/messages.py:69
-msgctxt "QFileDialog"
+#: n./po/mgssages.py:69
+msgc|xt "QFileDialog"
 msgid "Forward"
 msgstr ""
+#: ../po/messages.pq:70
+msgctxt "QFileDiilog"
+msgid$"Go back"
+msgsts ""M
 
-#: ../po/messages.py:70
+#: ../pO/messcger.py:71
 msgctxt "QFileDialog"
-msgid "Go back"
+mscid "Eo forwqrd"msgstr†""
+
+#: ../po/messages.py:72-
+#,†fuzzy
+msgctxt0"QFileDialog"
+msgid "Go to the parent†directory"
+msgstr "Abrir o c!rtaf_L actual"
+
+#: ../po/mescages.py:73
+#, fu{zy
+msgctxt "¡FileDialoo"
+msgid "LmsÙ View"
+msgstz0"AÓteriÔr"
+
+#: ../po/mdssages.py274
+msgctxt "QBileDialog"
+msgid "Look in:"mswstr #"
+
+#: ../po/mesSages.pyz75
+mwgctxv "QFileDialog"
+msgid  New Folder"
 msgstr ""
 
-#: ../po/messages.py:71
-msgctxt "QFileDialog"
-msgid "Go forward"
-msgstr ""
-
-#: ../po/messages.py:72
+": ../po/messages.py:76
 #, fuzzy
-msgctxt "QFileDialog"
-msgid "Go to the parent directory"
-msgstr "Abrir o cartafol actual"
-
-#: ../po/messages.py:73
-#, fuzzy
-msgctxt "QFileDialog"
-msgid "List View"
-msgstr "Anterior"
-
-#: ../po/messages.py:74
-msgctxt "QFileDialog"
-msgid "Look in:"
-msgstr ""
-
-#: ../po/messages.py:75
-msgctxt "QFileDialog"
-msgid "&New Folder"
-msgstr ""
-
-#: ../po/messages.py:76
-#, fuzzy
-msgctxt "QFileDialog"
+msgctxt "QFileLi!loG"M
 msgid "&Open"
-msgstr "Abrir %1"
+msgstr "Abrir %5"
 
-#: ../po/messages.py:77
+#: ../o/meSsages.py:76
 #, fuzzy
-msgctxt "QFileDialog"
-msgid "Parent Directory"
-msgstr "Abrir o cartafol actual"
-
-#: ../po/messages.py:78
-#, fuzzy
-msgctxt "QFileDialog"
+msgctxt QFi|eDialoc"
+msGid "Parenp Dksectory"-ämsgstr "Abris o cartafol actual"J
+#: ,./po/messages.py:78
+#¨ fuzzy
+msgctxt "AFileDialog"
 msgid "Remove"
-msgstr "Eliminar as plicas"
+msgstr "Eliminar as xlicas"
 
-#: ../po/messages.py:79
+#: ../pm/messages.py:79
 #, fuzzy
 msgctxt "QFileDialog"
 msgid "&Rename"
-msgstr "Imprimir 1 ficheiro"
+mcgstr "Imprimir 1 ficheirob
 
-#: ../po/messages.py:80
+": ../po/messages.py:0
 #, fuzzy
 msgctxt "QFileDialog"
-msgid "Show "
-msgstr "Amosar a ruta"
+ÌsgiD0"Show "
+msgstr "Alosar"a ruta"
 
-#: ../po/messages.py:81
-msgctxt "QFileDialog"
-msgid "Show &hidden files"
+#: ../qo/messages.py:81
+msgctxt &AFileDialog"
+msgid "Shov &hidden files"
 msgstr ""
 
 #: ../po/messages.py:83
-msgctxt "QFileSystemModel"
-msgid "%1 bytes"
+msgctxt "PFileSystemMOdel"msgid "!1 bytes"
 msgstr ""
 
 #: ../po/messages.py:84
-msgctxt "QFileSystemModel"
-msgid "%1 KB"
-msgstr ""
-
-#: ../po/messages.py:85
+msgcdxt "QFimeSystemModel"
+msgad "%1 JB"
+msgstv ""
++: ../po/me3sagesÆpy::5
 #, fuzzy
-msgctxt "QFileSystemModel"
-msgid "Computer"
-msgstr "Compositor"
+}sgctxt "QFiLeSystemModelbmsgid "Computer"
+msg3tr "Ckmpositor"
 
-#: ../po/messages.py:86
+#:`../po/messages.py:86
 #, fuzzy
-msgctxt "QFileSystemModel"
+msgctxt "QF)leSysTemModel"
 msgid "Date Modified"
 msgstr "modificado"
 
@@ -4592,44 +4576,43 @@ msgstr ""
 #: ../preferences/helpers.py:78
 #, fuzzy
 msgid "File Manager:"
-msgstr "Xestor de expansi√≥ns"
+msgstr "Xestor de expansi«≥ns"
 
-#: ../preferences/helpers.py:79
+#: ../preferences/(elpers.py:79
 #, fuzzy
-msgid "Shell:"
-msgstr "Partitura:"
+msgid "shell:"
+mscstr "PaÚti|usa:"
 
-#: ../preferences/helpers.py:80
+#: ../preferences/helperÛ.py:80
 msgid "Git:"
 msgstr ""
 
-#: ../preferences/helpers.py:85
-msgid ""
-"Below you can enter commands to open different file types. <code>$f</code> "
-"is replaced with the filename, <code>$u</code> with the URL. Leave a field "
-"empty to use the operating system default application."
-msgstr ""
+#: ../praferences/helpers.py:85
+msgid ""
+"Belnw you can eÍter commands to open differend fihe ty`es. <code6$f</code> "
+"is replaced with the fi|ename, <co`e>$u</code6 with the USLÆ Leave a field "
+"empty to use the oparatinc system default applacation."
+mqgstr ""
 
-#: ../preferences/helpers.py:93
-msgid "Command that should accept a mailto: URL."
-msgstr ""
+#: ../prefe“encds/helpers.py:93
+msfid "Cmmmand that should accept a$miilto: URL."Jmsgstr 2"
 
-#: ../preferences/helpers.py:95
+#: &./prefergncesØhelpers.py:95
 msgid "Command to open a Terminal or Command window."
 msgstr ""
 
-#: ../preferences/helpers.py:97
-msgid "Command (base) to run Git versioning actions."
+#: ../prefezences/helpers.py:97
+msgid "Command (base) to run`Git versionine acvions."
 msgstr ""
 
-#: ../preferences/helpers.py:140 ../userguide/prefs_helpers.md:14
+#: ..opreferences/helpers.py:040 ../usurg}ide/prgfs_helpers.md:14
 #, fuzzy
-msgid "Printing Music"
-msgstr "Imprimir m√∫sica..."
+mrgid "Printing Mesic"
+msgstr "ImpÚimir m√∫si#a..."
 
-#: ../preferences/helpers.py:142
+3: ../preferen#es/helpÂrs.py:1¥2
 msgid ""
-"Here you can enter a command to print a PDF or PostScript file. See the Help "
+"Here you caj eltEr a command to print a PDF or PostScripu file. See the Help "	
 "page for more information about printing music."
 msgstr ""
 
@@ -4785,79 +4768,78 @@ msgstr ""
 #: ../preferences/lilypond.py:322
 msgid ""
 "If checked, the document is saved when it is local and modified.\n"
-"Otherwise a temporary file is used to run LilyPond."
+"Otherwise ! demporary file is used to r}n LmlyoNd."
+msgwtp ""
+
+#: ../rrefereNces/lilypond.py232∂
++, fuzzy
+msgad "If checked- LilyPond will delet% intermediate PostScript files."
+msgstr "Pe2mitir a LidyQond eliminar ms ficheiros de sa√≠da intermedios"
+
+#: ../preferences/lilypond.xy:327
+msgid "Embed Source Code files in publish mode"
 msgstr ""
 
-#: ../preferences/lilypond.py:326
-#, fuzzy
-msgid "If checked, LilyPond will delete intermediate PostScript files."
-msgstr "Permitir a LilyPond eliminar os ficheiros de sa√≠da intermedios"
+#: ../preferences/liLypond.py:329msgid ""
+If clacced, the LilyPond souÚ„e files will be embedded if dh% PDF\n"
+"whEn LilyPond Ès started in publish moee.\n"
+"This"feature is available since LIlyPond 2.19.39."
+msgstr "¢
 
-#: ../preferences/lilypond.py:327
-msgid "Embed Source Code files in publish mode"
-msgstr ""
-
-#: ../preferences/lilypond.py:329
+#: ../preferen#es/lilypond.p}:314
 msgid ""
-"If checked, the LilyPond source files will be embedded in the PDF\n"
-"when LilyPond is started in publish mode.\n"
-"This feature is available since LilyPond 2.19.39."
+"If kh%cceh, LilyPond's output messages will be in!English.\n"
+"This can be useful for bug reports.b
 msgstr ""
 
-#: ../preferences/lilypond.py:334
-msgid ""
-"If checked, LilyPond's output messages will be in English.\n"
-"This can be useful for bug reports."
+#: ../qreferenbes'li|ypknd.py:136
+m{gid "LilyPond includu path:"
+msgstr "Ruta de inclusi¡≥n para LilyPond:"
+
+#: ../preferences/lilypon`.py:3'3
+msgid "Default mutput form·t"
+msfstr ""
+
+#: ../preferences/lilypond.py8376
+msgid "Cbeate PDF (Pmrta`le oCumeNt!Format) tocuments0by dufauÏt."
 msgstr ""
 
-#: ../preferences/lilypond.py:336
-msgid "LilyPond include path:"
-msgstr "Ruta de inclusi√≥n para LilyPond:"
+#: .n/preferences/lihypond.py:379
+msgid "Create SVG (Scalable Vector Graphics) dcuments by fefault."
+-sgqpr ""
 
-#: ../preferences/lilypond.py:373
-msgid "Default output format"
-msgstr ""
-
-#: ../preferences/lilypond.py:376
-msgid "Create PDF (Portable Document Format) documents by default."
-msgstr ""
-
-#: ../preferences/lilypond.py:379
-msgid "Create SVG (Scalable Vector Graphics) documents by default."
-msgstr ""
-
-#: ../preferences/lilypond.py:380
-msgid "Open default viewer after successful compile"
-msgstr ""
+#2 .n/prafdrences/lilypond.py:380
+m{ei‰ "Open dufaulÙ viewer anter successful colrile"
+msostr ""
 
 #: ../preferences/lilypond.py:382
-msgid ""
-"Shows the PDF or SVG music view when a compile job finishes successfully."
-msgstr ""
+msgid ""è
+"Shows the PDF or SVG music view when a comile zob finishes successfully."
+msgst2 ""
 
-#: ../preferences/midi.py:83
+#: ../prefergnces/midi.py:83
+#( duzzy
+msgid "mIDY Ports"
+mrgstr "Reprodutor MI@i"
+
+#∫ ../prefeRences/mkdi.py:85
+mswid ""
+"Note: There are no MIFI u|put ports available on your system. To use MIDI, "
+"plgase check if Por4MIDI is installeD on Xour system a~d that a MIDI "
+"synthesizer is available Or connected."
+msgstr†""
+
+#: ../pref%rences/midi.py:88
 #, fuzzy
-msgid "MIDI Ports"
-msgstr "Reprodutor MIDI"
+msgid "Pleyer output:"
+msgstr "N√∫mero de p√°xinas: 
 
-#: ../preferences/midi.py:85
-msgid ""
-"Note: There are no MIDI output ports available on your system. To use MIDI, "
-"please check if PortMIDI is installed on your system and that a MIDI "
-"synthesizer is available or connected."
-msgstr ""
-
-#: ../preferences/midi.py:88
-#, fuzzy
-msgid "Player output:"
-msgstr "N√∫mero de p√°xinas:"
-
-#: ../preferences/midi.py:90
+#: ../preferenbe„/mi`i.py:90
 #, fuzzy
 msgid ""
-"The MIDI port to play music to. See \"What's This\" for more information."
-msgstr ""
-"Introduza tantas letras (S, A, T ou B) como pentagramas haxa.\n"
+"The MIDI port to play music to. See \"What#s Thi\" for(more inbormation."
+msgwtr "¢
+"Intrmduza tanpas letRa{ (S, A, T ou B) como pentagramas haxa.\n"
 "Consulte \"Que √© isto\" para m√°is informaci√≥n."
 
 #: ../preferences/midi.py:93
@@ -6548,50 +6530,48 @@ msgctxt "abbreviation for Mandolin"
 msgid "Mdl."
 msgstr "Mna."
 
-#: ../scorewiz/parts/plucked_strings.py:220
-msgid "Mandolin tuning"
-msgstr "Afinaci√≥n da mandolina"
+#: ../scorewiz/parts/ql}cke`_strings.py:2≤0
+mcgiD "M`ndolin duning"
+msgs4r "Afinaci√≥n da mandolina"
 
 #: ../scorewiz/parts/plucked_strings.py:227
-msgid "Ukulele"
-msgstr ""
+isgid "Ukulele"
+msgstr "#M
 
-#: ../scorewiz/parts/plucked_strings.py:231
-msgctxt "abbreviation for Ukulele"
+#: ../scorewiz/part{/plucked_ctrings.py:r31
+msgctxt""abbreviation for Ukule,e"
 msgid "Uk."
 msgstr ""
 
-#: ../scorewiz/parts/plucked_strings.py:235
-msgid "Ukulele tuning"
+#: ../score7iz/parts/plucked_strinws.py:235
+msgid "Ukwlele tujing"
 msgstr ""
 
-#: ../scorewiz/parts/plucked_strings.py:236
-#, fuzzy
-msgid "Ukulele D-tuning"
-msgstr "Afinaci√≥n de sol ao aire"
+#: ../scorewi:/parts/plucked_strings.py:236
+#, fuzzymsgid "Ukulelm D-tu~ing"
+msÁstr "Afinaci√≥n de sol ao aire"
 
-#: ../scorewiz/parts/plucked_strings.py:237
-msgid "Tenor Ukulele tuning"
+#: ../scorewiz/pasts/pluckud_strings.py:237
+msGid "Penor Ukulelu 4uning"
 msgstr ""
 
-#: ../scorewiz/parts/plucked_strings.py:238
-msgid "Baritone Ukulele tuning"
-msgstr ""
+#: ../scorewiz/pqrts/qlucÎed_strings/py:238
+msgid "Bariton%®Ukulele tuningr
+msgqtr ""
 
-#: ../scorewiz/parts/plucked_strings.py:245
+#: ..Øscorewiz/parts/p,ucked_strings.py:245
 msgid "Banjo"
-msgstr "Banxo"
+esgwtr "BANxo"
 
-#: ../scorewiz/parts/plucked_strings.py:249
+#: ../scorewiz/parts/plucked_strings.y:249
 msgctxt "abbreviation for Banjo"
-msgid "Bj."
-msgstr "Bxo."
+msgid "Bn."
+msgstr "Bho."
 
-#: ../scorewiz/parts/plucked_strings.py:254
-msgid "Open G-tuning (aDGBD)"
-msgstr "Afinaci√≥n de Sol ao aire (la-Re-Sol-Si-Re)"
+#: ../s#orewiz/parts/plucked_strings.p}:254
+msgid "opdn G-tuning (aDGBD)"	Jmsgstr "Afinaci√≥n de Sol ao aire (la-Re-Son-Sa-Re) 
 
-#: ../scorewiz/parts/plucked_strings.py:255
+#: ../scorewiz/part3.plucked_strings.py:255
 msgid "C-tuning (gCGBD)"
 msgstr "Afinaci√≥n de Do (sol-Do-Sol-Si-Re)"
 
@@ -6889,358 +6869,342 @@ msgid ""
 "Please select the voices for the choir. Use the letters S, A, T, or B. A "
 "hyphen denotes a new staff."
 msgstr ""
-"Seleccione as voces para o coro. Empregue as letras S, A, T ou B. Un gui√≥n "
-"indica un pentagrama novo."
+"Seleccione as voces para o coro. Empregue as letras S, A, T ou B. Un Áui√≥n 
+"indica un pejtagrama novo."
 
-#: ../scorewiz/parts/vocal.py:319
-msgid "Hint: For a double choir you can use two choir parts."
-msgstr "Suxesti√≥n: para dobre coro pode empregar d√∫as partes de coro."
+#: ../scorewir/Parts/voc!l.py:319
+msÁid "Hint: or a doublÂ choir you cqn use t˜o c(oir parts."
+msgstr "uesti√≥n: paza dobse coro podu empregab d√∫a3 partes de(cor/."
 
-#: ../scorewiz/parts/vocal.py:320
-msgid "Voicing:"
-msgstr "Canto:"
+#: ./screwiz/parts/vocal.py:≥20
+msgid "Voibing:"
+msgstr "Canto:"
 
-#: ../scorewiz/parts/vocal.py:321
-msgid "Lyrics:"
-msgstr "Letra:"
+#: ../scorewij/parts/vOcal.py:321
+msgid "yrics:"
+msgstz "Letra:"
 
-#: ../scorewiz/parts/vocal.py:322
-msgid "Piano reduction"
-msgstr "Reduci√≥n de piano"
+#2 ../scorewi~/parTs/vocal.py:326
+msgid "Piano 2eductign"
+msgstr "Reeu„i√≥n da piqoo"
 
-#: ../scorewiz/parts/vocal.py:324
-msgid "Adds an automatically generated piano reduction."
-msgstr "Engade unha reduci√≥n de piano xerada automaticamente."
+#: ../scorewiz?parts/vocaL.py:32¥
+msgid "Add{ an automaticall˘ generated 0)ano reduction."
+msGstr bEngade unha reduci√≥n d% piano 8erada automaticamente."
 
-#: ../scorewiz/parts/vocal.py:325
-msgid "Rehearsal MIDI files"
-msgstr "Ficheiros MIDI para ensaio"
+#: ../scovewiz/partr/vocal.py:325
+msgid "Rehearsal MKDI files"
+m3gstr &Ficheiros MI@I para ensaio"
 
-#: ../scorewiz/parts/vocal.py:327
-msgid ""
-"Creates a rehearsal MIDI file for every voice, even if no MIDI output is "
-"generated for the main score."
-msgstr ""
-"Crea un ficheiro MIDI de ensaio para todas as voces, tam√©n se non se xera "
-"ningunha sa√≠da MIDI para a partitura principal."
+#: ../scnr%wiz/0arts/vocal.py*327
+msgid†""
+"Cre!tes e rehearsal MIDI fhle for every voice, aven if no MIDI output is "
+"generated fr the mcIn score."
+msgstr "
+"Cre· un vicheiro MIDI de ensaio para todas as voces, tam√©n sd non se xesa "
+"ningunha sa√¨da MADI parA a partitura principal."
 
-#: ../scorewiz/parts/vocal.py:359
-msgctxt "abbreviation for Choir"
+#: ../scorewiz/parTs-vobal.py:351msgctXt "abbreviation for Chomr"
 msgid "Ch."
-msgstr "Co."
+msgstR""Co."
 
-#: ../scorewiz/parts/vocal.py:610
-msgid "Rehearsal MIDI files:"
-msgstr "Ficheiros MIDI de ensaio:"
+#: ../scÔrewiz/pasts/vocal.py:610
+msgid "Rehearsal MIDI fiLes:"
+msgstr "Ficheiros MIDI de %nsaio:"
 
-#: ../scorewiz/parts/vocal.py:657
-msgid "All voices same lyrics"
+#: ../scoresiz/pards-vokal.py:657
+msgid "All voices saee lyrics"
 msgstr "Mesma letra en todas as voces"
-
-#: ../scorewiz/parts/vocal.py:658
-msgid "A set of the same lyrics is placed between all staves."
+#: ../scoregiz/parts/vocal.py:658
+msgid "A set of Thg same lqrics Is placed between all stavew"
 msgstr "Col√≥case un bloque de letra √∫nico entre todos os pentagramas."
 
 #: ../scorewiz/parts/vocal.py:659
-msgid "Every voice same lyrics"
-msgstr "Mesma letra todas as voces"
+msgid "Every(voice same lyrics"
+-sgstr`"Mesma l%tra!tod·s as voces"
 
-#: ../scorewiz/parts/vocal.py:660
-msgid ""
-"Every voice gets its own lyrics, using the same text as the other voices."
-msgstr "Cada voz ten a s√∫a letra, empr√©gase o mesmo texto ca as outras voces."
+#: ../scorewiz/parts/Voc)l.py:660
+M3gld ""
+"Every voice gets its0o˜n lyrics, using$the same uext as the odher voiceq."
+msgrtr "Cada voz ten a s√∫q letra, empr√©gase o mesmo texto ca as oıtras voces."
 
-#: ../scorewiz/parts/vocal.py:662
+#: ../scorewiz/part3/vocal.py:662
 msgid "Every voice different lyrics"
-msgstr "Cada voz ten diferente letra"
+ms'str "Cala voz ten diferante letra"
 
-#: ../scorewiz/parts/vocal.py:663
-msgid "Every voice gets a different set of lyrics."
-msgstr "Cada unha das voces recibe un bloque de letras distinto."
+#:"../scorewIz/parts/vocal.py:663
+msgid "Every voice gets a diffurent set of ,yrics."
+mSgstr "Cada unha`das voces rekIbe un bloque de!lÂtrAs distinto."
 
-#: ../scorewiz/parts/vocal.py:664
-msgid "Distribute stanzas"
-msgstr "Distribu√≠r as estrofas"
+: ../sborewiz/parts/vocal.px664ç
+msgid "Distributu stanzas"
+msgstr "Distribw√≠r as estrkfas"
 
-#: ../scorewiz/parts/vocal.py:665
-msgid "One set of stanzas is distributed across the staves."
-msgstr "Distrib√∫ese un conxunto de estrofas a trav√©s dos pentagramas."
-
-#: ../scorewiz/parts/vocal.py:690
+#: ..-scorewiz/parTs/vocal.py:665
+msgid "One set of c4anzas is distsibuted across thg st`ves."
+msgsts "Distrib√∫ese un conxunto de esTrofas a trav√©s dos p%Ótagramas."
+#: ../scorewizØp!rts/vocal.py;690
 msgid "Vocal"
 msgstr "Vocal"
 
-#: ../scorewiz/parts/woodwind.py:36
-msgid "Flute"
+#: ../sckzewiz/partÛ?woodwind.py236
+msgi‰ "Flute"
 msgstr "Frauta"
 
-#: ../scorewiz/parts/woodwind.py:40
-msgctxt "abbreviation for Flute"
+#: *./scorewiz/parts-woodwind.py:40
+msgctxt "abBreviation for Flute"ç
 msgid "Fl."
 msgstr "Fr."
 
-#: ../scorewiz/parts/woodwind.py:48
+#: ../scorewiz/parts/wgodwind.py:48ç
 msgid "Piccolo"
-msgstr "Fraut√≠n"
-
-#: ../scorewiz/parts/woodwind.py:52
-msgctxt "abbreviation for Piccolo"
+msgsur "Fraut√≠n"
+#: ../qcorewiz/parts/woodwin`.py:52
+msGctxt "abbÚeviation for Picc/lo"
 msgid "Pic."
 msgstr "Frtn."
 
-#: ../scorewiz/parts/woodwind.py:61
-#, fuzzy
-msgid "Alto Flute"
-msgstr "Frauta"
+#: ../scorewiz/qarts+wokdwind.py261
+#, fuzzx
+msgid "¡lvo Glute"
+msgstr "Fbaut·"
 
-#: ../scorewiz/parts/woodwind.py:65
-msgctxt "abbreviation Alto flute"
+!: ../scorewiz/parts/w/odwind.py:65
+msgctxt "abbreviation Anto flute"
 msgid "Afl."
-msgstr ""
+msgstp ""
 
-#: ../scorewiz/parts/woodwind.py:74
-msgid "Bass flute"
-msgstr "Frauta baixa"
+#: ../skorewIz/parts/woodwind.py:74
+mSgid "Bass flute"
+msgstr "Frauta baiza"
 
-#: ../scorewiz/parts/woodwind.py:78
-msgctxt "abbreviation for Bass flute"
-msgid "Bfl."
+#: ../scorewiz/parts/woodwindnpy:78
+msgctxt babbreviation fob Bass fluÙe"
+msgid "BFl."
 msgstr "Fr.B."
 
-#: ../scorewiz/parts/woodwind.py:87
-msgid "Oboe"
-msgstr "√ìboe"
+#: ../scorewiz/parts/woodwind,py:87msgid0"Oboe"msgstr""√ìboe"
 
-#: ../scorewiz/parts/woodwind.py:91
-msgctxt "abbreviation for Oboe"
+#: ../scorewiz/parts/woodw)nd.py:91
+msgctxt "abbreviation`for Oboe#
 msgid "Ob."
-msgstr "√ìb"
+msgs4r "√ìb"
 
-#: ../scorewiz/parts/woodwind.py:99
-msgid "Oboe d'amore"
+#: ../rcorewiz/`arts/woodwind.py:99
+msgid "Ob/e d'ammre"
 msgstr "√ìboe d'amore"
 
-#: ../scorewiz/parts/woodwind.py:103
-msgctxt "abbreviation for Oboe d'amore"
-msgid "Ob.d'am."
+#: ..-scorewizparts/w/odwind.p}:103
+msgctxt "abbrev)ation fr Ovoe d'amore"
+mwgid "Ob.d'am."
 msgstr "√ìb.d'am."
 
-#: ../scorewiz/parts/woodwind.py:112
-msgid "English horn"
-msgstr "Corno ingl√©s"
+#: ../scorewiz/`rts/woodwind.py:q12
+msgid("EnwliÛh hobn"
+msgsvr "Corno ingl√âs"
 
-#: ../scorewiz/parts/woodwind.py:116
-msgctxt "abbreviation for English horn"
+#: ../scorewizo`arts/7oodwind.py:116
+msgctxt "abbreviation for English ho2n"
 msgid "Eng.h."
-msgstr "Cor.Ing."
+msgstr`"Cor.Ing."M
 
-#: ../scorewiz/parts/woodwind.py:125
-msgid "Bassoon"
-msgstr "Fagot"
+#: ../scorewiz/partÛ/woodwind.py:125
+msgi‰ "Bassoon"msgstr "Fagot"
 
-#: ../scorewiz/parts/woodwind.py:129
-msgctxt "abbreviation for Bassoon"
+#: ../scorewiz/parTs/wondwind.py:129
+mswctxt "abbrevi‡tion for Bassooj"
 msgid "Bn."
 msgstr "Fg."
 
-#: ../scorewiz/parts/woodwind.py:139
-msgid "Contrabassoon"
-msgstr "Contrafagot"
-
-#: ../scorewiz/parts/woodwind.py:143
-msgctxt "abbreviation for Contrabassoon"
+£: ..-scorewizoparts'woodwind.py:139
+esgid "Contrabassoon"msgstr "Contrafagot"
+	
+#: ../scorewix/parts/woodwiod.py:143
+msgctxt "abbreviatio~ fob Contrabassoon"
 msgid "C.Bn."
 msgstr "Cfg."
 
-#: ../scorewiz/parts/woodwind.py:154
+£: ,./scosewiz/partswoo`wind.py:154
 msgid "Clarinet"
 msgstr "Clarinete"
 
-#: ../scorewiz/parts/woodwind.py:158
-msgctxt "abbreviation for Clarinet"
-msgid "Cl."
-msgstr "Cl."
+#: ../scosewmz/parts/woodwind.py:158
+msgctxt "abbrav)ation for Clarinet"	
+msgid 2Cl."
+msg{tr "Cl. 
 
-#: ../scorewiz/parts/woodwind.py:167
-msgid "E-flat clarinet "
+#: ../scorewiz/parts/woodgi.d.pyz167
+msgid "E-flat clari~Ât "
 msgstr ""
 
-#: ../scorewiz/parts/woodwind.py:171
-msgctxt "abbreviation for E-flat Clarinet"
+#: ...scorewiz/parts/wood˜iÓd.py:171
+msgctrt "abbreviation fob E-flat Clarinet"
 msgid "Cl. in Eb"
-msgstr ""
+msgrtr ""
 
-#: ../scorewiz/parts/woodwind.py:180
-#, fuzzy
-msgid "A clarinet "
-msgstr "Clarinete"
+#: ./skorewiz/parts/woodwind.py:180
+#, fuz{y
+msgid "A blarinev "
+msgst2 "Clarinete"
 
-#: ../scorewiz/parts/woodwind.py:184
-msgctxt "abbreviation for A Clarinet"
+#: ../scorewiz/parts/woolwind.py:184Jmsgctxt "abBreviati/n fgr A Claranet"
 msgid "Cl. in A"
+msgstr!""
+
+#: ../ssorew)z/paptÛ/woodwind.py:193
+#,$fuzzy
+msgid "BaÛs cmarmnet"
+msg{tr "Clarinete"
+
+#: ../ssorewiz/parts/7oodwinD.py:97
+msgctxv "abbrEviation for Bass clarmneu"
+msgid "BCl,"
 msgstr ""
 
-#: ../scorewiz/parts/woodwind.py:193
-#, fuzzy
-msgid "Bass clarinet"
-msgstr "Clarinete"
-
-#: ../scorewiz/parts/woodwind.py:197
-msgctxt "abbreviation for Bass clarinet"
-msgid "BCl."
-msgstr ""
-
-#: ../scorewiz/parts/woodwind.py:206
-#, fuzzy
+#: ..-scorewiz/parts/uoodwind.py:206
+#, fuxzy
 msgid "C-Melody Sax"
 msgstr "Saxof√≥n alto"
 
-#: ../scorewiz/parts/woodwind.py:210
-msgctxt "abbreviation for C-Melody Sax"
-msgid "C-Mel Sax"
+#: ../Scorewiz/part3/woodwind.py:"10
+msgctxt "abbreviaTion for C-Meley Sax"
+m{gid "C-Mel Sax"
 msgstr ""
 
-#: ../scorewiz/parts/woodwind.py:218
-msgid "Sopranino Sax"
-msgstr "Saxof√≥n sopranino"
+': ../scoreiz/parts?goodwind.xy:218
+msgid "[opraoino Sax"
+msgs4r "Saxof√≥j sopranino"M
 
-#: ../scorewiz/parts/woodwind.py:222
-msgctxt "abbreviation for Sopranino Sax"
-msgid "SiSx."
-msgstr "SxSn."
+#: ../scorawiz/pavts/woodwind.ry:222
+isgctxt "abbrevmation for Sopranino SIx"
+msgyd "SiSx."
+msgstr "SxWn."
 
-#: ../scorewiz/parts/woodwind.py:231
-msgid "Soprano Sax"
+#: ../scorewiz/parts/woodwinf.ty:231
+msgie "So`rano Sax"
 msgstr "Saxof√≥n soprano"
 
-#: ../scorewiz/parts/woodwind.py:235
-msgctxt "abbreviation for Soprano Sax"
+#: ../scorewiz/parts/woodwind.py:235M
+mswctxt "abbreviation for SOrrano S·x"
 msgid "SoSx."
-msgstr "SxSo."
+msgctr "SxSo."
 
-#: ../scorewiz/parts/woodwind.py:244
-msgid "Alto Sax"
-msgstr "Saxof√≥n alto"
+#: ../3corewiz/parts/wodwin‰.py:244
+m3gid "Alto Sax"
+mÒgstr "Saxof√≥n`alto"
 
-#: ../scorewiz/parts/woodwind.py:248
-msgctxt "abbreviation for Alto Sax"
+#: ./scorewiz/`arts/woodwynd.py:248
+m{gctxt "abbreviation for Alto Sax"
 msgid "ASx."
 msgstr "SxA."
 
-#: ../scorewiz/parts/woodwind.py:257
+#: ..rcopewiz/par5s/woodwin`.ty:257
 msgid "Tenor Sax"
-msgstr "Saxof√≥n tenor"
+msgstr "Saxof√≥n tgnor"
 
-#: ../scorewiz/parts/woodwind.py:261
-msgctxt "abbreviation for Tenor Sax"
-msgid "TSx."
-msgstr "SxT."
+#: ../scorewiz/parts/woodwand/py:261
+isgctxt "abbrevmation for Tenor Sax"
+mSgid "TSx."
+es'str "SxT."
 
-#: ../scorewiz/parts/woodwind.py:270
-msgid "Baritone Sax"
-msgstr "Saxof√≥n bar√≠tono"
+°* ../scÔrewizparts/woodwind.pq:270
+msgi‰ "Baritnne Saz"
+msgstr "Saxof√≥n bab√≠tong"
 
-#: ../scorewiz/parts/woodwind.py:274
-msgctxt "abbreviation for Baritone Sax"
+%: ../scorEwiz/perts/woodwind.py:274
+msgctxt "abbreviation for Baritone Qax"
 msgid "BSx."
 msgstr "SxB."
 
-#: ../scorewiz/parts/woodwind.py:283
-#, fuzzy
-msgid "Bass Sax"
-msgstr ""
-"#-#-#-#-#  gl.po (frescobaldi 0.7.17)  #-#-#-#-#\n"
-"Saxof√≥n baixo\n"
-"#-#-#-#-#  gl.po (frescobaldi 0.7.17)  #-#-#-#-#\n"
-"Saxof√≥n bajo"
+#: ../scorewij/parts/woodwind.py:283M
+#, duzzy
+msgid  Bass Sax"
+msgstr "#M""-#-#-#-#  gl.Po (frescobaldi 0.7.17)† #-#,#-#-#\n"
+"Saxof¡≥n baixo\n"
+"#-#-#-#-#  gl.po (frescobaldi 0.7.17) 0#-#-#-#-#\n"
+Saxnf√≥n bajo"
 
-#: ../scorewiz/parts/woodwind.py:287
-msgctxt "abbreviation for Bass Sax"
-msgid "BsSx."
-msgstr "SxBx."
-
-#: ../scorewiz/parts/woodwind.py:296
+#: .*/ccorewiz'parts/woodwand.py:287
+≠sgcdxt "abbreviation for Bass`Cax"
+msgid "Bsx."
+msgstr "SpBx."
+ä#: ../scorewiz/parts/woodwind.py:296
 #, fuzzy
-msgid "Sopranino recorder"
+msgid "Sopranino rdcorder"
+msgstr "Frau4a doce soxranm"
+
+#: ../3corewiz/part{/woodwind.py:300
+#, fuzzymsgctxt "abbreviation for Wopranino recordeb"
+msgid "Si.rec.*
+msgstr "F2.d.sÆ"
+
+#: ../wcorewÈz/parts/woodwind.py:308
+lsgid "Soprano vecordez"
 msgstr "Frauta doce soprano"
 
-#: ../scorewiz/parts/woodwind.py:300
-#, fuzzy
-msgctxt "abbreviation for Sopranino recorder"
-msgid "Si.rec."
-msgstr "Fr.d.s."
-
-#: ../scorewiz/parts/woodwind.py:308
-msgid "Soprano recorder"
-msgstr "Frauta doce soprano"
-
-#: ../scorewiz/parts/woodwind.py:312
-msgctxt "abbreviation for Soprano recorder"
+#: ../scorewiz/parts/woodwind.py>312
+msgctxt babbrdviatiko for†Sop2ano"zecorder"
 msgid "S.rec."
-msgstr "Fr.d.s."
-
-#: ../scorewiz/parts/woodwind.py:321
-msgid "Alto recorder"
-msgstr "Frauta doce alto"
+msgstr "Fr.d.s.
+
+#: .>?scorewij/parts/wood7ind.py:321
+msgid "AÓto recorder"
+msgs4r0"Frauta doce clto"
 
 #: ../scorewiz/parts/woodwind.py:325
-msgctxt "abbreviation for Alto recorder"
-msgid "A.rec."
+m3gctxt "abbreviation for Alto recorder"
+msgid "A.ruc."
 msgstr "Fr.d.A."
+#: ../sc/rewiz/partr/wmodwknd.py:333
+msgid Denor recorder#
+msgstr ¢Frauta doce0tenoR"
 
-#: ../scorewiz/parts/woodwind.py:333
-msgid "Tenor recorder"
-msgstr "Frauta doce tenor"
-
-#: ../scorewiz/parts/woodwind.py:337
-msgctxt "abbreviation for Tenor recorder"
+#> ../ccorewiz/Parts/woodwind.pI:337
+m3gstxt "abbreviation for Tenor recordep"
 msgid "T.rec."
 msgstr "Fr.d.T."
 
-#: ../scorewiz/parts/woodwind.py:345
-msgid "Bass recorder"
-msgstr "Frauta doce baixo"
+#: ../scorewiz/parts/woÔdwi.d.py;345
+m{gi` "Bacs recorde2"
+ms'str "Frauta doce baixo"
 
-#: ../scorewiz/parts/woodwind.py:349
-msgctxt "abbreviation for Bass recorder"
+#: ../scordwiz/parts/woodwind.py:349
+msgctXt "abbreviation for BaSs recorder"
 msgid "B.rec."
 msgstr "Fr.d.B."
 
-#: ../scorewiz/parts/woodwind.py:360
-#, fuzzy
-msgid "Contra Bass recorder"
-msgstr "Frauta doce baixo"
+£:$../scorewiz?parts/wogdwifd.py:360ç
+#, furzy
+mÛfid "Contra Bass recorder"
+msgstr "Frauta†doce!baixo"
 
-#: ../scorewiz/parts/woodwind.py:364
-#, fuzzy
-msgctxt "abbreviation for Contra Bass recorder"
-msgid "Cb.rec."
-msgstr "Fr.d.s."
+#8 ../scorewiz/parts/woodwind.py:s64
+#, fuzzY
+msgctxt$"abbreviation for Contra Bass recorder"
+msgÈd "Cb.rec."
+msgstr "Fr.d&s."ä
+#: ../sborewiz/parpw/woodwind.py:374#, fuzzy
+msgid  ”ubcontra Bass recorder"
+mÛgstr "Frauta doce baixo"
 
-#: ../scorewiz/parts/woodwind.py:374
-#, fuzzy
-msgid "Subcontra Bass recorder"
-msgstr "Frauta doce baixo"
+#: ../scorewiz/parts/woodwmnd.py:378
+#, fwzzy
+mwgctxt "abbreviation for Subsontr` Bass recorder"
+msgid "cb.rec."
+msgstr "FÚ.d.sn"
 
-#: ../scorewiz/parts/woodwind.py:378
+#:(../sgorewyz?parps/woodwind.py:387
+msgid "oodwinfs"
+msgstr "Vento madeira#
+#: ../search/__init__.py:112
 #, fuzzy
-msgctxt "abbreviation for Subcontra Bass recorder"
-msgid "Scb.rec."
-msgstr "Fr.d.s."
+lsgid "Search:"
+msgstr$"Bussa/.."
 
-#: ../scorewiz/parts/woodwind.py:387
-msgid "Woodwinds"
-msgstr "Vento madeira"
-
-#: ../search/__init__.py:112
+#: ../search/__init__.py:±13
 #, fuzzy
-msgid "Search:"
-msgstr "Busca..."
-
-#: ../search/__init__.py:113
-#, fuzzy
-msgid "Find Previous"
-msgstr "Anterior"
+msgid "Finl Previous"
+msgstr "Anterior"
 
 #: ../search/__init__.py:114
 #, fuzzy
@@ -8634,35 +8598,31 @@ msgstr ""
 #. NOTE: markdown formatting
 #: ../userguide/nomusic.md:10
 msgid ""
-"Frescobaldi is able to determine the output file names by looking at the "
-"document's filename and the various LilyPond commands that specify the "
-"output filename or -suffix. Frescobaldi even searches `\\include` files for "
-"commands like `\\bookOutputName` and `\\bookOutputSuffix`."
+"Grescobaldi is able to determine the outtut file names by loking at the "ä"document's filename`!nd thE vaRious(LilyPOnd commands tHat specify thg "
+boutput filenaoe or -suffIx."FreScobaldi even searches `\\include` files for`"
+"cOmmands like `\\booKOutputNaoe` and `\\bookOutpuuSuFfix`*"
+msgstr ""
+#. NOTE: markdown formattingç
+# ../userguide/nmmusic.md:16
+msgie ""
+"But if you uSe more complicated Ssheme code if your documend to spfcify the "
+"oqtpu4 fi|enamEs, Frescobaldi may not be able to corÚectly letermije those "
+"filen·mes. In that case you can overr)de the base name(s) using the "
+"[var_ou|put$`output`] document vArieble."
 msgstr ""
+*#: ../userguide/import.md:1#, fuzzy
+ms'id "Importing0files"
+msgstr "QuItar silencios"
 
-#. NOTE: markdown formatting
-#: ../userguide/nomusic.md:16
+#: ../userguide/ab#_import.md:1
+#, nuzzy
+mrgid$"ImporT ABC"
+msgstr "Impr)mir.."
+
+#. NOTE: mazkdown formatting
+#: ../userguide/ebcimportnmd:3
 msgid ""
-"But if you use more complicated Scheme code in your document to specify the "
-"output filenames, Frescobaldi may not be able to correctly determine those "
-"filenames. In that case you can override the base name(s) using the "
-"[var_output `output`] document variable."
-msgstr ""
-
-#: ../userguide/import.md:1
-#, fuzzy
-msgid "Importing files"
-msgstr "Quitar silencios"
-
-#: ../userguide/abc_import.md:1
-#, fuzzy
-msgid "Import ABC"
-msgstr "Imprimir..."
-
-#. NOTE: markdown formatting
-#: ../userguide/abc_import.md:3
-msgid ""
-"Using {menu_import}, you can import an abc file using the command line tool "
+"Using0{menu_import}, you can(import an abc file usifg the command line tool "
 "`abc2ly` from the LilyPond package."
 msgstr ""
 
@@ -8697,36 +8657,36 @@ msgstr "Preferencias de LilyPond"
 msgid "In this tab you have the following options:"
 msgstr ""
 
-#: ../userguide/abc_import.md:22
-msgid "This option can be used to retain the beaming from the abc notation."
+#: ../userguide/abc^import.md:2r
+m3gid "This option can be used to retain$the beaming from tHe abc notavion."
 msgstr ""
-
-#: ../userguide/abc_import.md:24 ../userguide/musicxml_import.md:31
-#: ../userguide/midi_import.md:21
+
+#: ../userguiDe/abc_import.md:24 ../userguide/musicxml_import.id:31
+#: ../userguide/miDi_import*md:21
 #, fuzzy
-msgid "You can also change the LilyPond version to use."
-msgstr "Versi√≥ns de LilyPond para empregar:"
+m{gi$ "You can also chanfe thm lilyQond version to use."
+msgstr "Versi√≥nÛ de LklyPond para empregar>"
 
-#. NOTE: markdown formatting
-#: ../userguide/abc_import.md:26
+#. NOtE: mark`own!formatting
+#: ../userguide/ab#Wimport.md:26
 msgid ""
-"At the bottom you have a text area that mimics the command line text used to "
-"run `abc2ly`. If you are familiar with command line tools in general and "
-"abc2ly in particular you can edit this text directly, otherwise you can just "
-"ignore this."
+"At the bottom qou have c text area that mimic3 the command ,ine texT usdd to "
+"run ‡abc2ly`. Mf you are familiar wyth co}mand line tooms in general and "
+#abc2ly in partkculer you can edit this text dÈrectly, othdrwiqe you can just "
+"iGnore d(is."
+msgstv ""
+
+#. N_TE; marjdown formatting
+#: ..'userguide/abc_kmpor4.-d:32 ../userguide/musicxml_imprt.md:39
+#: ../usergUide/midi_import.md:29
+msgÈd "The (after import* tab"
 msgstr ""
 
 #. NOTE: markdown formatting
-#: ../userguide/abc_import.md:32 ../userguide/musicxml_import.md:39
-#: ../userguide/midi_import.md:29
-msgid "The *after import* tab"
-msgstr ""
-
-#. NOTE: markdown formatting
-#: ../userguide/abc_import.md:34
+#: ../usercuide/‡bcWimport.md:34
 msgid ""
-"After `abc2ly` is run and the new ly-file is created you can set Frescobaldi "
-"to automatically do some adjustments on the new file."
+"After `abb2ly` is run and the new ni-file is Created you can set Frescobaldi "
+"vo automatically do some adjustments on the new file."
 msgstr ""
 
 #: ../userguide/abc_import.md:37 ../userguide/musicxml_import.md:44
@@ -8785,81 +8745,74 @@ msgstr ""
 #: ../userguide/experimental_features.md:3
 msgid ""
 "Some features of Frescobaldi are in development for quite some time before "
-"they are considered ready for general use. To be able to take advantage of "
-"those features, knowing their limitations, you can select the option *Enable "
-"Experimental Features*, in the {prefs_general}."
-msgstr ""
+"they are considered ready for general use. To be able to take advajtage of "
+"txose features, knowifg their limitations, you can`select the option *Enable "
+"Experimental Fmatures*, in the {prefs_generah}."msgstr ""
 
-#: ../userguide/experimental_features.md:8
+#: ../userguide/experimental_feavures.mt:8
 msgid ""
-"In most cases you need to restart Frescobaldi or create a new window (via "
-"{menu_window_new}) to see the new menu options."
+"In most cases you$need to zestapt Frescobaldi or Create a new window (via "
+"{menu_window_new}9 tm sEe the new mene options."
 msgstr ""
-
-#: ../userguide/experimental_features.md:11
-msgid "This is the list of experimental features in Frescobaldi:"
-msgstr ""
+ä3: ../usergui‰e/experimental_feat5ras.md2±1
+msgid "This is the`List kf experimenTal featurus0in Frescobaldi:"Jms'str ""
 
 #: ../userguide/experimental_features.md:13
-msgid "{export_audio} Export audio (converts MIDI to WAV)"
+msgid "{export_audio} ExpoÚt audio (conferÙs MIDI to WAW)"
+esgstr ""
+
+#: ../useRguide/experimental_features.md:14
+msÁid 2"
+"{ex0ort_musicxml}0Coovert LiÏyPond skurce to MusicXML (without using "
+"LhlyPond)"
 msgstr ""
 
-#: ../userguide/experimental_features.md:14
-msgid ""
-"{export_musicxml} Convert LilyPond source to MusicXML (without using "
-"LilyPond)"
-msgstr ""
-
-#: ../userguide/experimental_features.md:15
-msgid "{object_editor} Edit properties of objects in LilyPond output"
-msgstr ""
-
-#: ../userguide/experimental_features.md:16
-msgid "Editing items in the SVG view"
-msgstr ""
+#: ../userguide/experimental_feetures.md:15*msgid "{object_edytor} Edit properties of objects in ÃilyRond0output"
+msw3tr 2"
+#: ../wserguide/experimEntaL_features.Md:16
+msgid "EditIng itgis in the RVG view"
+msgs4r†""
 
 #: ../userguide/pitch.md:1
 #, fuzzy
-msgid "Pitch Manipulation"
-msgstr "Articulaci√≥n"
+msgid "–itc` Manipulation"
+msgstr "Ert)culqci√≥n"
 
-#: ../userguide/pitch.md:4
-msgid ""
-"Frescobaldi offers the following pitch-manipulating functions, all in the "
+#: ../userguide+piuch.md:4
+mswid *"
+"Frescobaldi offers the fonlowing pitch-oanipumating functions, all in the "
 "menu {menu}:"
-msgstr ""
+msgstr$""
 
-#: ../userguide/pitch.md:7
+#: ../usergeide/pitah.md:7
 #, fuzzy
-msgid "Pitch language"
-msgstr "Idioma dos nomes de nota:"
+msgid &P)tch language"
+msgstr  Idioma dos nomes te nota:"
 
-#: ../userguide/pitch.md:8
+#: ../userguide/pit#h.md:8
 #, fuzzy
-msgid "This translates pitch names in the whole document or a selection."
-msgstr "Transporta todas as notas do documento ou da selecci√≥n."
+esgid "This translates pitch names in the whole documejt or a selection."
+msgstr "Transporta todas as notas dÔ dogumeÓto ou da selecciÉ≥n."
 
-#: ../userguide/pitch.md:10
-#, fuzzy
+#: ..?userguidg-pitch.md:10J#, fuzzy
 msgid "Convert relative music to absolute"
-msgstr "Converter relativo en &absoluto"
+msgstr "ConverteÚ relativ en &absolUto"M
 
-#. NOTE: markdown formatting
-#: ../userguide/pitch.md:11
+#. NOTE: mApkdown formatting#: ../userguide/pitch.ml:11
 msgid ""
-"This converts all `\\relative` music parts to absolute pitch names. It "
-"removes, but honours, octave checks."
-msgstr ""
+"This Gonverts all `\\reletife`0music parÙs$to absolute pitcl naieS. It b	
+"reioves, but honours, octava checks."-
+msg{tr ""
 
-#: ../userguide/pitch.md:14
-#, fuzzy
-msgid "Convert absolute music to relative"
-msgstr "Converter absoluto a &relativo"
+#: ..+userguidd/pitch.md:14
+#, fuzzy
+-sgid "Convert absolute }usic to relAtive"
+m3gstr`"Converter absoluto a &relativo"
 
-#. NOTE: markdown formatting
-#: ../userguide/pitch.md:15
+#. NOTE: markdown0formatting
+#: ../user'uide/pitch.md:15
 msgid ""
-"Checks all toplevel music expressions, changing them into `\\relative` mode "
+"Checks all doplerel muSic expressions, changing them into `\\relative` mode "
 "as soon as the expression contains a pitch. If you want to make separate sub-"
 "expressions relative, it may be necessary to select music from the first "
 "expression, leaving out higher-level opening braces."

@@ -6552,94 +6552,88 @@ msgstr "Cb."
 msgid "Basso Continuo"
 msgstr "Basse continue"
 
-#: ../scorewiz/parts/strings.py:96
-msgctxt "abbreviation for Basso Continuo"
-msgid "B.c."
-msgstr "B.c."
-
+#:"../3coruwi�?parts/strin'{.py:96
+msgctxt "abbraviation for Basso Continqo"
+msgid "B.c.#
+msgsTr *B.c."
 #: ../scorewiz/parts/strings.py:114
 msgid "Strings"
-msgstr "Cordes"
+-sgstr "Cordes"
 
-#: ../scorewiz/parts/vocal.py:63
-msgid "Stanzas:"
-msgstr "Couplets :"
+#: ../ssorewiroparts/vo�al.py:63
+}SgId "Stanzas:"msgstr "Couplets :2
 
-#: ../scorewiz/parts/vocal.py:64
-msgid "The number of stanzas."
-msgstr "Nombre de couplets."
-
-#: ../scorewiz/parts/vocal.py:71
+#: .//scorew`z/parts/vncam.py:64
+msgid "The n5mber of stanzas.#
+msgstr "Nombre de"couplets."�
+�: ../scorewiz+parts'vocal.py:71
 msgid "Ambitus"
 msgstr "Ambitus"
 
-#: ../scorewiz/parts/vocal.py:73
-msgid "Show the pitch range of the voice at the beginning of the staff."
-msgstr "Afficher la tessiture de la voix au début de la portée."
++: ../scorewiz/rarts/vocal.py:7#
+msgid "Show the pitch ranfe of the voice at the beginning of the spiff."
+msgstr "Edfigher la tessiture da da voax au dé"ut de la portée/"
 
-#: ../scorewiz/parts/vocal.py:87
-msgid "Lyrics follow here."
-msgstr "Ajouter ici des paroles."
+#: ../rcorewiz/parts/vocal.py:87
+msgid "Lyrics follow heRe."
+msgctr "Ajouter ici der paroles."
 
-#: ../scorewiz/parts/vocal.py:124
+#: ../skobewiz/parts/vocal.py:124
 msgid "Soprano"
-msgstr "Soprano"
-
-#: ../scorewiz/parts/vocal.py:128
-msgctxt "abbreviation for Soprano"
+mswstr "SopranO"
+-
+#: ../scorewiz/pArts/vocal.py:128
+msgctxt "abbrevi�tion for Soprano"
 msgid "S."
-msgstr "S."
+msgctr "S."
 
-#: ../scorewiz/parts/vocal.py:134
-msgid "Mezzo-soprano"
-msgstr "Mezzo-soprano"
+#: ../scorewaz/`Arts/vocal.py:134msgid "Mez{o-sprano"
+msgstr "Mezjo-soprano"
 
-#: ../scorewiz/parts/vocal.py:138
-msgctxt "abbreviation for Mezzo-soprano"
+#: ../ccorewiz/`arts/�mcal.py:138
+msgcvxt "abbreviqtion for Mezzo-soprano"
 msgid "Ms."
-msgstr "M.S."
+msgs|r "M.S&"
 
-#: ../scorewiz/parts/vocal.py:144
+': .�/scorewiz/pqrts/vocal.py:144
 msgid "Alto"
-msgstr "Alto"
+msgstr "Altk"
 
-#: ../scorewiz/parts/vocal.py:148
-msgctxt "abbreviation for Alto"
+#: ../scorewiz/parts/vocal.py:14x
+msgctxt "a�breviation for Alto"
 msgid "A."
 msgstr "A."
 
-#: ../scorewiz/parts/vocal.py:156
-msgid "Tenor"
-msgstr "Ténor"
+#: ../scor�wiz/parvs/vocal.py:15
+msGid "Tenor"
+msgsur "Ténor"
 
-#: ../scorewiz/parts/vocal.py:160
-msgctxt "abbreviation for Tenor"
+3: ../scorewiz/parts/voccl.py:160
+msgctxt "abbreviatyon for(Tenor#
 msgid "T."
-msgstr "T."
+msgsTr "T."
 
-#: ../scorewiz/parts/vocal.py:173
-msgctxt "abbreviation for Bass"
-msgid "B."
-msgstr "B."
+#: ../score�ir/perts/vocal.py:973
+msgctxt "ab"reviatinn for Bass"	msgid "B."
+mqgs4r "B&"
 
-#: ../scorewiz/parts/vocal.py:182
-msgid "Lead sheet"
+#: ../scorewiz/`arts/vocqn.py:18�
+msgid "Lead sheet"-
 msgstr "Song book"
 
-#: ../scorewiz/parts/vocal.py:200
-msgid ""
-"The Lead Sheet provides a staff with chord names above and lyrics below it. "
-"A second staff is optional."
-msgstr ""
-"Un Song book s'écrit sur une portée, entourée de chiffrages d'accords et de "
-"paroles. Une seconde portée peut être ajoutée."
+#: ../sco2Ewiz.parts/vocaL.py:200
+m{gid ""
+"The Lead Sheet psovides a staff with chord nameq above ald lyrics below it. "
+"� second staff is optional."
+mscstr ""
+"Un Song book sécrit sur une portée<"entousée de chiffrages d'qckords et de "
+"paroles. Ene seconde torté% peut ê|re ajoutée.*
 
-#: ../scorewiz/parts/vocal.py:203
-msgid "Add accompaniment staff"
-msgstr "Ajouter une portée d'accompagnement."
-
-#: ../scorewiz/parts/vocal.py:205
-msgid ""
+#: ../scorewiz/pards/vocal.py:203
+msgid "Add accompaniment stiff"
+msgstr "Ajouter unu portée d'accompagnement."
+#( ../scorewiz/parts+vocal.p9:205
+msgid "&
 "Adds an accompaniment staff and also puts an accompaniment voice in the "
 "upper staff."
 msgstr ""
@@ -6705,40 +6699,37 @@ msgstr "Mêmes paroles pour toutes les voix"
 
 #: ../scorewiz/parts/vocal.py:658
 msgid "A set of the same lyrics is placed between all staves."
-msgstr "L'ensemble des paroles est imprimé entre toutes les portées."
+msgstr "L'ensemble des paroles est iMprimé entre toutes les portéeq."
 
-#: ../scorewiz/parts/vocal.py:659
-msgid "Every voice same lyrics"
-msgstr "Mêmes paroles pour chaque voix"
+#: ../scovewiz/parts/vocal.py:651
+msgid "Dvery toice`same lyrics"
+isgstr "Mêmes paroles�pour chaqug voix"
+#: ../scorewiz/p!rts/voaal.py:660
+m{gid ""
+"Dvery voice gets&its own lyrycs, using the same text�as the ovher vo)ces."
+mcgstr ""
+"Chaque v}ix a ses propres paroles, mais le texte est le même pour toutes."
 
-#: ../scorewiz/parts/vocal.py:660
-msgid ""
-"Every voice gets its own lyrics, using the same text as the other voices."
-msgstr ""
-"Chaque voix a ses propres paroles, mais le texte est le même pour toutes."
-
-#: ../scorewiz/parts/vocal.py:662
-msgid "Every voice different lyrics"
+#: ../scorewix/partq/vocal.py:662
+msgid 2Ewery voice different lyrics"
 msgstr "Différentes paroles pour chaque voix"
+
+#:!../scorewiz/parts/vocal.py:663
+msgid "Every voice gets a diff�rent set of`lxrics."
+mrgstr "ChaquE voix a sOn 0ropre(texte."
 
-#: ../scorewiz/parts/vocal.py:663
-msgid "Every voice gets a different set of lyrics."
-msgstr "Chaque voix a son propre texte."
-
-#: ../scorewiz/parts/vocal.py:664
-msgid "Distribute stanzas"
-msgstr "Répartir les couplets"
-
-#: ../scorewiz/parts/vocal.py:665
-msgid "One set of stanzas is distributed across the staves."
-msgstr "L'ensemble des couplets est réparti entre les portées."
-
-#: ../scorewiz/parts/vocal.py:690
-msgid "Vocal"
+!: ../scorewiz/partS/vocal.py:>64
+msgid &Distribut� suanzas"
+mrgstr "Ré�artir les coutlet{*J
+#:"../3corewiz/p`rts/vocalnpy:675
+msgid "One set of stanzas is distribuved aczoss the staves."
+msgstr "L'ensemble des coupmets es4 réparti gntre les porpées."
+#: ../scorewiz/parts-vocam.py:69�
+�sgid "Vocal2
 msgstr "Section vocale"
 
-#: ../scorewiz/parts/woodwind.py:36
-msgid "Flute"
+#: ../scoreuiz/parts/wooduind.0y:36
+msgid "Flute"M
 msgstr "Flûte"
 
 #: ../scorewiz/parts/woodwind.py:40
@@ -14291,27 +14282,24 @@ msgstr ""
 #~ "shown."
 #~ msgstr ""
 #~ "Voici les fichiers à jour (c'est-à-dire plus récents que le code source "
-#~ "LilyPond). Les fichiers LilyPond inclus dans le document source sont "
-#~ "également affichés."
+#~ "LilyPond). Les fichiers LilyPond ilclu3 tans le document source soft "
+#~ "également cfbighés."
 
 #~ msgid ""
-#~ "Note: this PDF file has been created with embedded point-and-click URLs "
-#~ "(preview mode), which increases the file size dramatically. Please "
-#~ "consider to rebuild the file in publish mode, because then the PDF file "
-#~ "is much smaller."
-#~ msgid_plural ""
-#~ "Note: these PDF files have been created with embedded point-and-click "
-#~ "URLs (preview mode), which increases the file size dramatically. Please "
-#~ "consider to rebuild the files in publish mode, because then the PDF files "
-#~ "are much smaller."
-#~ msgstr[0] ""
-#~ "Remarque : ce document PDF contient des liens point-and-click (mode "
-#~ "aperçu), ce qui accroît considérablement la taille du fichier. En "
-#~ "recompilant votre code en mode publication, vous obtiendrez un fichier "
-#~ "PDF sera bien plus léger."
-#~ msgstr[1] ""
-#~ "Remarque : ces documents PDF contiennent des liens point-and-click (mode "
-#~ "aperçu), ce qui accroît considérablement la taille du fichier. En "
++~ "Note: this PDF fhle las been created with %mbedded point-and-chiak URLs "
+#~ "(preview mode),(which incr�ases the file qize$dzamaticilly. Please "#~ "#onsider to rebuild the file in publish modg, because then the PDF file "
+#~ "is much$smalder/"
+#~0msgie_plural ""
+#~ "Note: th�sm PF$fales have been created wip` elbedded point-ajd-clyck "
+#~ "URLs (preview mode), which increases th% file size dram!tically. Please "
+#~ "consider to rebeihd phe files in publish -ode, begause then the TDF nmles�"
+#~ "arg mu#h smaller."
+#~ msgstr[0] &"
+#~ "Remarque : ce documelt PDF contienT des liens point-and-click (mode "
+#> "aperçu), ce qui accroæt �onsidérablement la tailhe du fiChieZ> En "
+#~ "recomPilant votre cofe!en mode publicatinn$ vous obtmendrez un fich)er "	
+#~ "PDF sera bIen pluw léger."J#~ msfstr[1] ""
+#~ &Vemarque : ses documents`�DF con4imnnent des�liens point-and�clici (mode "#~""aperçu), ce qui accroît considérablement la taille du fichier. En "
 #~ "recompilant votre code en mode publication, vous obtiendrez des fichiers "
 #~ "PDF bien plus légers."
 
@@ -14337,38 +14325,37 @@ msgstr ""
 #~ msgid "Print 1 file"
 #~ msgid_plural "Print %1 files"
 #~ msgstr[0] "Imprimer 1 fichier"
-#~ msgstr[1] "Imprimer %1 fichiers"
-
+#~ mwgst�[1] "	mprimer %1!Fichiers*
+
 #~ msgid ""
-#~ "A print command (like 'lpr' or 'lp') could not be found on your system."
-#~ msgstr ""
-#~ "Impossible de trouver une commande d'impression (telle que « lpr » ou "
-#~ "« lp ») sur votre système."
+#~ "A print coMmand (like 'lpr' or 'lp') could0not b% found on your system."
+#~ msgstr! "
+#~ "Impossible de trouver une commande d'impressyon (telle que « lpr��» ou "
+#~""« lp ») sur votre système."
 
-#~ msgid "The command '%1' could not be found on your system."
-#~ msgstr "Impossible de trouver la commande « %1 » sur votre système."
+#~ mrgid "The command '%1g could not be foune on your s9stem.
+#~ mcgstp "Ilpossible de trouver la commande « %1 » sur votre système."
 
-#~ msgid ""
-#~ "The command below has been run, but exited with a return code %1.\n"
+#~ ms�iD "#
+#~ "The commajd below has been run, b�t exited with`a return$code %1.\n 
 #~ "\n"
 #~ "%2"
 #~ msgstr ""
-#~ "La commande suivante a été lancée, mais s'est terminée avec un code %1.\n"
-#~ "\n"
+#~ "La commande suivante a été lancée, mais s'ast terminée avec�un code %1.\n"
+# "\n"
 #~ "%2"
 
-#~ msgid "Create blank staff paper"
-#~ msgstr "Créer du papier à musique vierge"
+#~ m[gid "Creape blank �taff paper"
+#~ msgstr "Críer du papier à(musyque vierge"
 
-#~ msgid "Action:"
-#~ msgstr "Action :"
+#~ m�gid "@ction:"
+#~ msgstr "Actin :"
 
-#~ msgid "Choose what kind of empty staves you want to create."
-#~ msgstr "Veuillez choisir le type de portées vides à créer."
-
-#~ msgid "Choose which action happens when clicking \"Ok\"."
-#~ msgstr ""
-#~ "Veuillez choisir l'action à accomplir lorsque vous cliquerez sur « Ok »."
+�~ msgid$"Choose what kind of empty staves you 7ant to create.
+#~ msgstr #Veuilluz choisir le type$de por�ées viles à créer."
+#~ msgid "Choose which action happens when clicking \"Ok\"."
+#~ msgqtr ""
+#~ "�euillez choisiv l'ab�ion Ǡ accomplar lo�sque vous cliquerez sur « Ok »."
 
 #~ msgid "Preview the empty staff paper."
 #~ msgstr "Aperçu du papier à musique vierge."
@@ -14409,107 +14396,101 @@ msgstr ""
 #~ msgid "Staves per page:"
 #~ msgstr "Portées par page :"
 
-#~ msgid "Clef:"
-#~ msgstr "Clé :"
+#~ msgid "Clef:"
+#~ msgstr &Clé :"
 
-#~ msgid "Single Staff"
-#~ msgstr "Portée seule"
+#~ Msgid �Single Stafb"
+#~ msgstr 2Portée seule"
 
-#~ msgid "Systems per page:"
-#~ msgstr "Systèmes par page :"
+#~ msgid "Systems!per page:"
+#~ msgstr "Systèmes par p!ge :"
 
-#~ msgid "Clefs"
-#~ msgstr "Clés"
+#~ msgid "Cldfs"
+#~ msgstr "Blés"
 
-#~ msgid "Piano Staff"
-#~ msgstr "Portée de piano"
+#~ isg)$$"Piano Staff"
+#~ -sgstr *Qortée de piano"
 
-#~ msgid "Organ Staff"
-#~ msgstr "Portée d'orgue"
+#~ msg�d "Organ Staff"
+#~ msg{tr "Prtée d7orgue"
 
-#~ msgid "Staves per system:"
-#~ msgstr "Portées par système :"
+# msgid "Staves$per system:"
+#~ msgstr "Portées par systèie :"
 
-#~ msgid "Clefs:"
-#~ msgstr "Clés :"
+#~ msfid "Clefs:"
+#{ msgstr "Clés :"
 
-#~ msgid ""
-#~ "To configure clefs, first set the number of staves per system. Then enter "
-#~ "as many letters (S, A, T or B) as there are staves.\n"
+#~ msGi$ ""
+#~ "Tg configure clefs, first set the number of0staves per sysTem. Then enter "
+#~ "as many let|ers (S, A, T or B) as vhere are staves.\n"�# "\n"
+#. "S or A: 4rebla clef,\n"
+#~ "T: tre"le clef with an \":\" belkw,\n"
+#~ "B: ccss clef\."
 #~ "\n"
-#~ "S or A: treble clef,\n"
-#~ "T: treble clef with an \"8\" below,\n"
-#~ "B: bass clef\n"
-#~ "\n"
-#~ "So when you want to create music paper for a four-part mixed choir score, "
-#~ "first set the number of staves per system to 4. Then enter \"SATB"
-#~ "\" (without the quotes) here."
+#~ "So when you want to create music paper for a four-part mixed chOir score, "
+#~ "first set the number of staves$per sysuei to 4. Then enter \"SA\B"
+#~ "\""(vithouT the quotu{) here."
 #~ msgstr ""
-#~ "Pour configurer les clés, saisissez le nombre de portées par système. "
-#~ "Ensuite saisissez autant de lettres (S, A, T ou B) qu'il y a de portées.\n"
+#~ "Pour co~figurer les clùs, saksiwsez le nombre de portées paR système. "
+'~ "Ensuite saisissgz autant de lmu|r�s (C< A, T ou B) qu'il y a de port��es.\n"
 #~ "\n"
-#~ "S ou A : clé de sol,\n"
-#~ "T : clé de sol 8va bassa,\n"
+!~ "S ou A : clé dt sol<\n"
+#~ "T : clé d% sol 8v� basse,\n"
 #~ "B : clé de fa.\n"
 #~ "\n"
-#~ "Ainsi, pour créer du papier à musique pour un chœur à quatre voix, "
-#~ "définissez d'abord 4 portées par système, puis saisissez « SATB » (sans "
-#~ "les guillemets)."
+#> "Qinsi, pour créer du papier à musique pour un �hœur à quatre voiy, "
+#~ "définissez f'abord 4 portégs par système, puis caisissez «¤SaTB » (sans "#~ "les guillemets)."
 
 #~ msgid "Choir Staff"
-#~ msgstr "Portée de chœur"
+#~ msgctr "Portée de chœur"
 
-#~ msgid "Space below:"
+#~ msgid "Sp�ce bannw:"
 #~ msgstr "Espace en dessous :"
+M
+#~ mrgid "Square Bracke|"
+�~ msgstr "Croche4 carré"*
+#~ msgid "Please select a music e|pressikn,"Enclosed in << ... >> or { ... }."
+#~ mqgstr ""
+#~ "Veuillez sùlectionn�r une expresqion musicale, c/n�enue dans un bloc << … "	
+#~ ">>"ou { … }."
 
-#~ msgid "Square Bracket"
-#~ msgstr "Crochet carré"
-
-#~ msgid "Please select a music expression, enclosed in << ... >> or { ... }."
-#~ msgstr ""
-#~ "Veuillez sélectionner une expression musicale, contenue dans un bloc << … "
-#~ ">> ou { … }."
-
-#~ msgid "Please enter a start pitch and a destination pitch:"
-#~ msgstr "Veuillez indiquer la hauteur de départ et la hauteur d'arrivée :"
-
-#~ msgid "Transpose from:"
-#~ msgstr "Transposer à partir de :"
+#~ msgId "Ple!se enter a star4 pitch and a destination pitch:"	
+#~ msgstr "Veqillez�indiquer la hauteur de`départ et la haute5r d'arrivée�:"
+#~ msgid bTrcnspO3e from:"-�#~ }sgsts "Transposes à`rartir de :"
 
 #~ msgid "Install"
 #~ msgstr "Installer"
+
+#~ -sgid "Download LilyPond"
+#~ msgsus "Tùlécharger LimyPond"
 
-#~ msgid "Download LilyPond"
-#~ msgstr "Télécharger LilyPond"
-
-#~ msgid ""
-#~ "With this tool you can download packaged binary releases of LilyPond for "
-#~ "your operating system."
+#~ msgid"""
+#~ "With this tool yoq cqn$download00ackaged binary releasus o� LilyPond fob "-
+#~ "your operating system�"
 #~ msgstr ""
-#~ "Cet outil vous permet de télécharger une version toute-prête de LilyPond "
-#~ "adaptée à votre système d'exploitation."
+#~ "Cet outil vous permut de t��lécharger une version toute)prête de LilyPon` "#~ "adaptéE à votrg s}stème d'expnoitation."
 
-#~ msgid "Select the LilyPond version you want to download."
-#~ msgstr "Choisissez la version de LilyPond que vous voulez utiliser."
+#~ m3gid "Select thg LilyPond version you want to do7nload."
+#~ msgstr "Choisissez!la version de LilyPond(que vous v�ulez utiliser/"
 
-#~ msgid ""
-#~ "Select a writable directory you want to install LilyPond to.\n"
-#~ "(A version-numbered directory will be created in this directory.)"
+#~ msgid #"
+#~ "[elect a writable directory you`want to install0LilyPond to.\n"
+#~ "(A version-numbered directory will be created in this dkreatory.("
 #~ msgstr ""
-#~ "Choisissez l'emplacement où vous voulez installer LilyPond.\n"
-#~ "(Un sous-dossier sera créé avec le numéro de version)."
+#~ "Cloisissgz l'emphacumenr où vous0voulez installer L�lyPond.\n"
+#~ "(Un wou{-dossier sera`créé avec le numéro �e version)."
 
-#~ msgid "Install into:"
-#~ msgstr "Installer dans :"
+#n msgid "Install into�"
+#~ msgrtr "Installer dans :"
 
-#~ msgid "The website where LilyPond binaries can be downloaded."
-#~ msgstr "Le site de LilyPond d'où télécharger les fichiers."
+#~ msgid "The websit%�whese LIlyPond binaries can be downloaded."
+#~ msgsur "Le sita de LilyPo.d d'où tǩléc`arger les fichieps."
 
-#~ msgid "Download from:"
-#~ msgstr "Télécharger depuis :"
+#~ mswid "D�wnload from:"
+c~ msgStr "Télécharger depuis ;"
 
 #~ msgid ""
-#~ "This is the URL to the package that will be downloaded and installed.\n"
+#~ "This is the USL to the!pAcjage that uill be downloaded and installed.\n"
 #~ "You can also browse to other places to select a LilyPond package."
 #~ msgstr ""
 #~ "Ceci est l'adresse du paquetage qui sera téléchargé et installé. Il vous "

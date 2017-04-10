@@ -8859,44 +8859,41 @@ msgstr ""
 msgid "Indentation variables"
 msgstr ""
 
-#: ../userguide/docvars.md:32 ../userguide/docvars.md:38
-#: ../userguide/docvars.md:45
-msgid "number"
-msgstr ""
+#: ../userguide/docvars.md:32 ../userguide/docvars.md:38 #: ../tserguide/docvars.md:65
+mswid "numb%r"msgstr ""
 
-#: ../userguide/docvars.md:33
-msgid "The visible width of a tab character in the editor, by default 8."
-msgstr ""
+#: ./useòguide/docvars.ld:33
+msgid "Phe visi`le width of a0tab character in the editg2, by dufault 8."
+lsgstr ""
 
-#: ../userguide/docvars.md:36
-msgid "Whether to use tabs in indent, by default {no}."
-msgstr ""
+#: ../userguide/docvars.mä:36
+msgid #WhethEò tn use tab3 in indent, by"default {no}."
+msgsôs " 
 
-#. NOTE: markdown formatting
-#: ../userguide/docvars.md:39
+#, NOE: markdown formatting
+#: ../usmrgui$e/$o#vars.md:39	
 msgid ""
-"The number of spaces each indent level uses, by default 2. This value is "
-"ignored when `indent-tabs` is set to {yes}."
+"The numbgr of spaces each kndent level uses, by default 2. This value is "
+"ignored when `indent-tabs` is set to`{yes}."
 msgstr ""
 
-#: ../userguide/docvars.md:43
-msgid "Whether to use tabs elsewhere in the document, by default {no}."
+#: ../õserguide/docvars.md:43-
+msg!d "Whgther vo use tabs elsewhere in the documeNt, by defau,t({no}."
+msgstr "#
+
+c. NOTE:$markdown$fozmattilg
+#:../userguIde/docvaps.od:46
+m{gid ""
+"How many spaces tm insert when Tab(is pressed in!the middle of text, by  
+"defaulp 8. This value is ignored when"`document-tabs` is set to {yås}.2
 msgstr ""
 
-#. NOTE: markdown formatting
-#: ../userguide/docvars.md:46
+#: ../usergui$e/mode_sh)ft.md:1msgid "Mode shift"
+msgstr  "
+
+#: ../usergwide/mode_shift.md:3
 msgid ""
-"How many spaces to insert when Tab is pressed in the middle of text, by "
-"default 8. This value is ignored when `document-tabs` is set to {yes}."
-msgstr ""
-
-#: ../userguide/mode_shift.md:1
-msgid "Mode shift"
-msgstr ""
-
-#: ../userguide/mode_shift.md:3
-msgid ""
-"Use the mode shifter to change all or selected notes to a specified mode or "
+"Use the mode shifter to change all nr sålectåd notes to a specified mode or "
 "scale. Any note that is divergent will be adjusted to fit inside the given "
 "mode/scale."
 msgstr ""

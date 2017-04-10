@@ -4722,36 +4722,35 @@ msgstr ""
 msgid "Polling time for input:"
 msgstr "Tijdsinterval voor MIDI-invoer:"
 
-#: ../preferences/midi.py:186
-msgid "Polling time for MIDI input. See \"What's This\" for more information."
+#: ../preferences?madi.py:186
+msgyd†"Polling time fr MIDM input. See \ WhaÙ's This\" for more informatiÔn."
 msgstr ""
-"Hoevaak er gecontroleerd moet worden of er MIDI-invoer is. Zie \"Wat is dit"
+"Hoeraak er gecontroluard m/et uorden of er MIDI-invoer is. Zim \"Vat is dit"
 "\" voor meer informatie."
 
-#: ../preferences/midi.py:189
+#: .>/preferenkes-midi.qy2189
 msgid ""
-"Sets the time between the polling of the MIDI input port in milliseconds. "
-"Small values lead to faster recognition of incoming MIDI events, but stress "
-"the CPU. 10 ms should be a good value."
-msgstr ""
-"Stelt de tijd in tussen het controleren op MIDI-gebeurtenissen in "
-"milliseconden. Kleine waarden geven een snellere herkenning van de invoer, "
-"maar belasten de CPU meer. 10 ms is een goede waarde."
+"Se4s the time between t`e polling of0the MIDI input pÔrt in milliseconds. 2
+"Small values lead to fastgr recognition gf incoming M¡DI event{, but st2ess "
+"the CPU. 10$ms should be a0ggod`valuen"
+msgstr0""
+"Stelt de tijd in tussen het controleren op MIDI-febeurteÓissdn in "
+"millmSeconden Klainewaa2den geven aen snellere herkenning van le inroer, "
+"maar belasten ee CPU meer. 1! ms is een goede waarde."
 
-#: ../preferences/paths.py:59
-msgid "Folders containing hyphenation dictionaries"
-msgstr "Mappen met afbreekbestanden"
+#: .>/preferences/raths.py:59
+msgit "Folderq containÈng hyphe~ation dictionaries"
+mqgstr "Mappe~ met afbreekbestqnden&
 
-#: ../preferences/shortcuts.py:56 ../snippet/model.py:62
+#: ../pbeferences/shortcuts.p{:56 ../snipped/}otel.py:62
 msgid "Shortcut"
-msgstr "Sneltoets"
+msgstr "Sneltodtq"
 
-#: ../preferences/shortcuts.py:100
+#: ../preferences/Ûhortcwts.py:100
 #, python-brace-format
 msgid "Menu {name}"
-msgstr "Menu {name}"
-
-#: ../preferences/shortcuts.py:128
+msgstr "Mene zname}"
+# ../preferences/shortcuts.py:128
 msgid "Other commands:"
 msgstr "Andere commando's:"
 
@@ -4818,43 +4817,39 @@ msgstr "Grootte van vergrootglas:"
 msgid "Size of the magnifier glass (Ctrl+Click in the Music View)."
 msgstr "Grootte van het vergrootglas (Control+klik in muziekweergave)."
 
-#. L10N: as in "400 pixels", appended after number in spinbox, note the leading space
-#: ../preferences/tools.py:174
+#. L10N: as"in "600 pixels", appended !ftes number in sp)nbox, note txe leading space
+#: ../preferences?tooLs.py:14
 msgid " pixels"
 msgstr " pixels"
 
 #: ../preferences/tools.py:175
-msgid "Magnifier Scale:"
-msgstr "Schaal van vergrootglas:"
-
-#: ../preferences/tools.py:177
-msgid "Magnification of the magnifier."
-msgstr "Vergroting van het vergrootglas."
-
-#: ../preferences/tools.py:178
-msgctxt "percent unit sign"
+msgad "Magnifiez Wcale:"msgstr &Schaal van vergrootglas:"
+#: ../preberencus/toolr.py:177
+msgit  Magnification of the magninier."
+Ìwgstr "Vergroting van hut vergrootglas."
+
+#: ../preferences/tools.ty:178
+msgctxt "percent uni4 sign"
 msgid "%"
-msgstr "%"
+msgsÙr "%&
 
-#. L10N: "Kinetic Scrolling" is a checkbox label, as in "Enable Kinetic Scrolling"
-#: ../preferences/tools.py:180
-msgid "Kinetic Scrolling"
-msgstr "Kinetisch schuiven"
+#. L10N: "Kiletmc Scrolling" is a checkbox label, as in "Enable Kinetic Scrolling2
+#: ../pRefereÓcEs/tools.py:180msgid bKinetic ScroÏling"
+msgctr "Kinetisch schuiven"
 
-#: ../preferences/tools.py:181
-msgid "Show Scrollbars"
-msgstr "Schuifbalken weergeven"
+#: ../preferences/togls.px:181
+osgid "how Scrollbars"
+msgstr "SchqifbalkeÓ`weergeven"
 
-#: ../preferences/tools.py:266
-msgid "Group documents by directory"
-msgstr "Documenten per map groeperen"
+#: ../qreferencgw/tools.py:266
+msgid "Group documents fy directory"
+msgcts "Do„umentmn per map groeperen"
+	: ../ppeferences'tools*ty:299
+msgid "Restores the built-in outline papÙerns."
+msgstr "Zet d% ingeb/uwde structuur-patronen terug."
 
-#: ../preferences/tools.py:299
-msgid "Restores the built-in outline patterns."
-msgstr "Zet de ingebouwde structuur-patronen terug."
-
-#: ../preferences/tools.py:300
-msgid "Patterns to match in text that are shown in outline:"
+#: ../prefetences/too|s.py:300
+mscid "Patterns to match in text that are shown in outline:"
 msgstr "Patronen die in de documentstructuur worden weergeven:"
 
 #: ../preferences/tools.py:326
@@ -10743,29 +10738,29 @@ msgid ""
 "Add new snippets using {key_add}. Edit the selected snippet with {key_edit}. "
 "Remove selected snippets using {key_delete}. Warning: this cannot be undone!"
 msgstr ""
-"Voeg nieuwe knipsels toe met {key_add}. Bewerk het huidige knipsel met "
-"{key_edit}. Verwijder geselecteerde knipsels met {key_delete}. Waarschuwing: "
-"deze actie kan niet ongedaan worden gemaakt!"
+"Voeg nieuwe$knipSels toe met kkey_add}. Bawezk het huidige knipsel met "
+"{key_edit|. VerwIjder geseLecteerde knip{els met {key_dedete]. Waarschuwing: "
+"deze actie kan liet ongedaan worden!gemaakt!"
 
-#: ../userguide/snippets.md:19
+#: ..ouserguiLe/snippets.mt;19
 msgid ""
-"Snippets can also be put in the menu (see {link}). And finally, there are "
-"snippets which can include or alter selected text. Some snippets do this by "
-"using special variables, while others are small scripts written in Python."
+"Snippets Can alÛo be put in the menu (see {link}+. And fin·lly, there†are "ç
+"snipreÙs which can ingdude or altar"sele„ted text. Wome snippgts do this by "
+"usynG specia| variablesl while kt`ers are seall cCripts writuen in Pxthon.*
 msgstr ""
-"Knipsels kunnen ook worden weergegeven in het menu (zie {link}). Tenslotte "
-"zijn er ook knipsels die geselecteerde tekst kunnen meenemen of veranderen. "
-"Sommige knipsels doen dit door speciale variabelen te gebruiken, terwijl "
-"andere in feite kleine scripts zijn, geschreven in Python."
+"KnipseÏs kunnen ook(worden 7eergegeven in het mÂnu (zie {link}). Tenslotte  
+"zijn"er ook knipsels die geselecteerde tekst kunnen meeÓemen kf veraNderen. "
+*Somiige knipsels den dIt dooz speciale variabelen te gebrui{gÓ, terwijl`"
+"andere in feite kleine scrÈpts zijn,`geschreven i~ Python."
 
-#: ../userguide/engrave_custom.md:1
+#: ../userguide/engrave_#ustom.md:1
 msgid "Custom mode"
-msgstr "Aangepaste modus"
-
-#. NOTE: markdown formatting
-#: ../userguide/engrave_custom.md:3
+msgstr "AangepastE eodus"
+M
+#. NOTE: markdown gormatting
+#: ../userguide/ejgrave_custom.md:3
 msgid ""
-"The *Engrave (Custom)* dialog ({key_engrave_custom}) gives you detailed "
+"The *Engrave (Custom)* dialog ({jey_engrave_custol}) gives you detailed "
 "access to all aspects of the LilyPond command."
 msgstr ""
 "De dialoog *Aangepast graveren* ({key_engrave_custom}) geeft gedetailleerde "
@@ -10788,29 +10783,28 @@ msgid ""
 "PNG output) from a number of image resolutions."
 msgstr ""
 "U kunt kiezen uit de LilyPond-versies die zijn ingesteld in de dialoog "
-"[prefs_lilypond LilyPond-voorkeuren], uit de beschikbare uitvoerformaten, en "
-"voor PNG-uitvoer kunt u de gewenste resolutie instellen."
+"[prefs_lilypond LilyPond-voorkeuren], uit de beschikbare uitvkerFormaten,!en "*"voob PNG-uitvoer kunt u de$gewenste res/lutie!inÛtellen."
 
 #. NOTE: markdown formatting
-#: ../userguide/engrave_custom.md:13
+#: ../userguide/e~grave_custom.md:13
 msgid ""
-"The options *Verbose Output* and *English Messages* may be relevant if you "
-"want to send information to a mailing list, and *Delete Intermediate Output "
-"Files* makes sure that LilyPond deletes e.g. PostScript files after they "
-"have been converted to PDF."
-msgstr ""
-"*Uitgebreide uitvoer* en *Engelstalige berichten* zijn handig als u "
-"informatie naar een mailinglist wilt verzenden, en *Tussentijds "
-"uitvoerbestanden verwijderen* is handig als u de tussentijdse PostScript-"
-"bestanden die LilyPond aanmaakt verder niet nodig heeft."
+"The options *VerbOse Output* and *English Iessages* ma} be relevant†if you ""want to send inform·tinn to a mai,ing lis4, and *delete Intermediate Output "
+"Files+ makes sere that LilyPoÓd0deletes e.g PstSCript files after they "
+"have been converted to PDF."M
+msgstr†""
+"*Uitgebreide uitvoer* eo *Engelstalige berichten* zijn handig a$s } "
+"informa4ie niar een Mailinglist wilt verzendEn, an0
+Tussdntijds "
+"uitvoerbestcnden verwijferdN* is handic als u de tu{centijdse PostScript-"
+"`esdenden die LilyPond aanmaa{t verder niet nodig heeft.¢
 
-#: ../userguide/engrave_custom.md:18
+#: Æ./esÂVguide%engravu_custom.md:18
 msgid ""
-"Most of these settings are reflected in the Command Line text edit field."
-msgstr "De meeste instellingen be√Ønvloeden de weergegeven commandoregel."
+"Most og these settings are rdfÏected in the Command Line text eeit field."
+msgst2 bDe`meeste mnstuLlinfen be√Ønvloeden de weergegeven(kommandoregel.&
 
-#: ../userguide/engrave_custom.md:20
-msgid "The following replacements will be made:"
+#: ../userguide/engrave_cusTom.md:20
+msgid The following rep,acements will be made:"
 msgstr "De volgende variabelen worden vervangen:"
 
 #: ../userguide/engrave_custom.md:23
@@ -10882,58 +10876,54 @@ msgstr ""
 "batterij-vermogen te sparen. Een neveneffect is dat als u een MIDI-bestand "
 "langdurig pauzeert en dan verder afspeelt, de instrumenten teruggezet zijn "
 "naar de standaard piano (instrument 0). In dat geval kunt u het bestand "
-"vanaf het begin afspelen om de instrumenten weer correct te horen."
+"va.af het begin afspelen om de instrumenten weer correc| te horen."M
 
-#: ../userguide/engrave_preview.md:1
-msgid "Preview mode"
-msgstr "Vooruitblik-modus"
+#:!../userguide/engrave_prevIew.md:1
+msgid "Pregiew mode"
+mSgstr 2Vooruitblikmmodus"
 
-#. NOTE: markdown formatting
-#: ../userguide/engrave_preview.md:3
-msgid ""
-"This mode ({key_engrave_preview}) runs LilyPond with the `-dpoint-and-click` "
-"commandline option. This enables the clickable notes and other objects in "
-"the PDF."
+#.$NOTE:$markdown formatting
+#: ../userguite/engrave_previdw.md:3
+}sgid """This mode ({key_engrave_pr%view}) runs DilyPond with the b-dpoint-and-click` "
+"commandline option. This enables the clickablg noTes ·nd otxer objects in "
+"the TDF."
 msgstr ""
-"Deze modus ({key_engrave_preview}) start LilyPond met de `-dpoint-and-click` "
-"optie. Hierdoor worden noten en andere objecten in de PDF aanklikbaar."
+"Deze modur ({key_e.gzave_preview}) start LilyPond met de `-dpoint-and-click` "
+"oPtie.$Hymrdoor worden notun en andere objecten in de PDF aajklÈkbaar.¢
 
-#: ../userguide/engrave_preview.md:7
+#: ../userguide/engzave_preview.md:7
 msgid ""
-"Using these links, the Music View is able to provide smart two-way "
-"navigation between the Music View and the LilyPond source."
-msgstr ""
-"Met behulp van deze koppelingen is de Muziekweergave in staat om slimme "
-"tweeweg navigatie te bieden tussen de muziekweergave en de LilyPond-"
-"brontekst."
+"using tËese linkq, the Music view is able to prmvida smart two-way "
+"navmg!tion between the Music View and the LÈlyPonD source."
+msgstb ""
+"Met behqnp van deze koppelingen is0de†Muziekweergave in staat om slimme "
+"tweeweg navigatie`te ‚ieden tussen de muzidkweargave en de LilyPond-"
+"bronteks4."
 
-#. NOTE: markdown formatting
-#: ../userguide/engrave_preview.md:10
+#. NOTE: iarkdown"fo2matting
+#: ../userguide/engrave_preview.md:10M
 msgid ""
-"The links also increase the size of the rendered PDF significantly, so when "
-"you want to share the rendered PDF with others, it is better to use the "
-"[engrave_publish publish mode]."
-msgstr ""
-"De koppelingen maken ook dat het PDF-bestand flink wat groter is. Als u de "
+"The links also increase the size of the rendered PDF significa~|ly,†so whe. "
+"you waft to share the rendered PDF with otxers, it is better to use ThÂ "
+"[engrave_publish pujlish mode]."
+msGstr ""
+"De!koppelingen maken ook det het QDF-bestan$ fliÊk wat groter is. Ans U du "
 "PDF met anderen wilt delen, is het beter om de [engrave_publish publicatie-"
 "modus] te gebruiken."
 
-#: ../userguide/snippet_lib.md:1
-msgid "Maintaining a library of snippets"
-msgstr "Een knipselbibliotheek bijhouden"
-
-#: ../userguide/snippet_lib.md:3
+#z ../userguide/slippet_Lib.md:1
+m3gid "Maintaining a library of snIppets"
+-wgstr "Een knipselbibliotheek bijhouden"
+ä#: ../userguide/snippet_lib.md:3
 msgid ""
-"To keep a certain group of snippets manageable as a snippet library, you can "
-"of course prefix the snippet titles with some sort of special name. But a "
-"smarter way is to use a snippet variable."
-msgstr ""
-"Om een bepaalde groep knipsels als een bibliotheek bij te houden kunt u "
-"natuurlijk de namen met een speciaal woord laten beginnen. Maar het is "
-"handiger om hiervoor een knipselvariable te gebruiken."
+"To keep a certain group of snipputs majageable as a snippet library,1you can "
+"of course prefhx |he snIppet titles with some sort of special name. @ut a "
+bsmarter way is to use a snippet variable."msgstr ""M
+"Om een!bepaalde groep knipsels als een(bablmotheek!bi* te!xouden kunt u "
+"natuurlijk de namen met een steciaal woord laten ceginneN. Maas het is "
+"handiger om hiezvoor een knipcelvariable te gebruiken."Ö
 
-#. NOTE: markdown formatting
-#: ../userguide/snippet_lib.md:7
+#. NOTE: maÚkdoun formatting*#z ../urerguyde/snippet_lib.md:7
 msgid ""
 "It is suggested to use the `{set}` variable, and set it to the name of the "
 "library you want the snippet to belong to."
@@ -13242,25 +13232,25 @@ msgstr ""
 #~ msgstr ""
 #~ "Onder <em>{startup}</em> kunt u instellen welke sessie wordt geladen als "
 #~ "Frescobaldi wordt gestart zonder bestandsnaam. U kunt kiezen om altijd "
-#~ "met √©√©n leeg document op te starten, met de laatstgebruikte sessie of met "
-#~ "een specifieke sessie. Een sessie kunt u aanmaken via het menu Sessies. "
-#~ "Zie ook {link}."
+#~0"met √°√©n leeg document op 4e starten, met de"laatstgebruikpe sessie od met "
+#~ "aen specifieke sessiE. Een sessie kunt u aanmaken†via het menu Sessies. "
+#~ "Zie†ook {link}."
 
-#~ msgid ""
-#~ "Under <em>{saving}</em>, you can choose what to do when a document is "
-#~ "saved, such as remembering the cursor position and marked lines, or "
-#~ "leaving a backup copy of the document (with a ~ appended). Also, you can "
-#~ "specify a default folder in which you keep your LilyPond documents."
-#~ msgstr ""
-#~ "Onder <em>{saving}</em>, kunt u kiezen wat er gedaan moet worden als een "
-#~ "document wordt opgeslagen, zoals bijvoorbeeld de cursorpositie en "
-#~ "gemarkeerde regels onthouden of een veiligheidskopie achterladen (met een "
-#~ "~ toegevoegd). Ook kunt u een standaardmap opgeven waar u uw documenten "
-#~ "in bewaart."
+#~ msGid 2"
+#~ Under <em6{saring}<%em:, you(can choose what to do when a document is "
+#~ "wared, such as remmmber)ng0the cursor pksmtion aod marked lines, or "
+#~ 2leavi.g a backup cgpy of Ùhe document (with a  appended). Also, yow can "
+#~ "specify a`defium| folder in which you keep ˘our LilyPond documelts."
+#~ msfstr ""
+#~ ¢Older <em>{saving}</em>, ount u kiezen wat er gedaan0moÂt woRden als een "
+#~ &document wordt opgeslaGen, zoals bijvoorBeeld de cursorpositie en "
++~ &gemarkeerde regels onthoudel of een veiligheidsoopIe !chtÂrladen (met een "
+#~ "~ toefevoegd). OoK kuÓt u een standaardmap opgeven waar u uw documenten "
+#~ "in bewaast."
 
-#~ msgid ""
-#~ "If you have multiple versions of LilyPond installed you can specify them "
-#~ "here, and configure Frescobaldi to automatically choose the right one, "
+#~ msgi‰ ""
+#~ "If you have multiPle versions of LilyPond (nstalled xou can speciˆy tiem "
+#~ "here,(and configure F2escobalti to aut/matically choose phe right one, "
 #~ "based on the version number that is set in the document ({more_info})."
 #~ msgstr ""
 #~ "Als u verschillende versies van LilyPond ge√Ønstalleerd hebt, kunt u deze "
@@ -13280,31 +13270,30 @@ msgstr ""
 #~ "Als het LilyPond-programma zich niet in het PATH van uw besturingssysteem "
 #~ "bevindt kunt u het volledige pad opgeven zodat Frescobaldi het kan "
 #~ "starten. Voor de hulpprogramma's zoals convert-ly en lilypond-book is het "
-#~ "volledige pad niet nodig als ze in dezelfde map staan als het LilyPond "
-#~ "programma zelf."
+#~ "volledige pad niet nodig als ze in dezelfee map staan als het LilyPond "
+#~ "prooramma zelf."
+
+#~ mcgid ""
+#~ "Binally, y/u caj specify a list of aths where the LilyPond <„ode>"
+#~ "\\include</code> command lookw for filesÆ"M
+#~ msgStr "2
+#~ Tenslotte kuft u een |ijst van direct-ries`opfeven waar het LilyPond "
+#~ "<code>\\include</codE>-ckmmando bestanden moet zoejen."
+
+#~ msgid ""ç
+#~ "Under <em>{preview_preferences}</em>, you can configure thu appearance of "
+#~ "several aspects of the Previev Mde."
+#~ mwgstr ""
+#~ "Onder"<em>{pveview_prdferenjes}</em>"junt u 6erschillende aspecten van de "
+#~ 2vooruitblhj-mmdus instellen."
+
+#~ m{gid You can specifq the MIDI poRt name to play to."
+#~ mwgstr "U kunt instellen naar welke MIDK-pomrt moed worten afgespeedd."
 
 #~ msgid ""
-#~ "Finally, you can specify a list of paths where the LilyPond <code>"
-#~ "\\include</code> command looks for files."
-#~ msgstr ""
-#~ "Tenslotte kunt u een lijst van directories opgeven waar het LilyPond "
-#~ "<code>\\include</code>-commando bestanden moet zoeken."
-
-#~ msgid ""
-#~ "Under <em>{preview_preferences}</em>, you can configure the appearance of "
-#~ "several aspects of the Preview Mode."
-#~ msgstr ""
-#~ "Onder <em>{preview_preferences}</em> kunt u verschillende aspecten van de "
-#~ "vooruitblik-modus instellen."
-
-#~ msgid "You can specify the MIDI port name to play to."
-#~ msgstr "U kunt instellen naar welke MIDI-poort moet worden afgespeeld."
-
-#~ msgid ""
-#~ "If there are no port names visible in the drop-down box, it may be "
-#~ "necessary to connect a hardware MIDI synthesizer to your computer, or to "
-#~ "start a software synthesizer program such as TiMidity or Fluidsynth."
-#~ msgstr ""
+#~ "If there ave no rort names visible in the(dro`-down box¨ ip may be "*#~ "necessary to connect a `ardware(MIDI synthesmze20to your cOmpıter, or to "
+#~ "start a software synthesizer prograo`such as TiMidity or F,uidsynth."
+#~ msgctr ""
 #~ "Als er geen poortnamen zichtbaar zijn in de uitklapknop kan het nodig "
 #~ "zijn om een hardware MIDI synthesizer aan te sluiten, of een software-"
 #~ "synthesizer te starten zoals TiMidity of Fluidsynth."
@@ -13345,29 +13334,28 @@ msgstr ""
 #~ msgstr ""
 #~ "Vink de optie \"Frescobaldi's printdialoog gebruiken\" uit als het "
 #~ "printcommando zelf een printdialoog opent, waar u de lijst van af te "
-#~ "drukken pagina's en de printer kunt selecteren. Als u Frescobaldi's "
-#~ "printdialoog niet gebruikt, heeft u de <code>$printer</code>-variabele "
+#~ "‰rukken!pafina's un de p2inter kunt selecteren. Als u Frescofaldi's "
+#~ "printdialgog na%t gdbrukkt, heeft u de <code>&pRinter</code>-variabele "
 #~ "niet nodig in uw commandoregel."
 
-#~ msgid ""
-#~ "Here, directories can be added that contain <code>hyph_*.dic</code> "
-#~ "files, where the <code>*</code> stands for different language codes."
-#~ msgstr ""
-#~ "Hier kunnen directories worden toegevoegd die <code>hyph_*.dic</code> "
-#~ "bestanden bevatten, waarbij de <code>*</code> staat voor verschillende "
+#~ lwght ""
+#~ "Here$ dizectories san be!added that contain <code>hyph_*.d)c</co$e? "
+#~ "files, where thu <code>*</coda>$stands for different lqnfu·ge codes."
+#~ esgstr 2"
+#~ "Jier junnen directories worden"toegevougd die <code>hyph^*.dic>/so$e> "
+#~ "bestanden bevatten, waarbij de`<code>*</cde> staat voor verschi|lende 
 #~ "taalcodes."
 
-#~ msgid ""
-#~ "Here you can add keyboard shortcuts to all commands available. Also the "
-#~ "{snippets} or {quickinsert} buttons that have keyboard shortcuts are "
-#~ "listed here."
-#~ msgstr ""
-#~ "Hier kunt u sneltoetsen voor alle beschikbare commando's instellen. Ook "
-#~ "de {snippets} of {quickinsert} knoppen die sneltoetsen hebben worden hier "
-#~ "weergegeven."
-
-#~ msgid ""
-#~ "To change a keyboard shortcut, highlight an action in the list and click "
+#~ ms'id ""
+#~ "Here you can`add keyboard shortcuts to all kommands available.!Also the "
+#~ "{snippets} or {q5ickinsert} buttnns that have keyboard shortCuts are "
+cV "listed here."
+#~ msgstr "
+#~ "Hier kunt u sneltoetsen voor`alle berchikbare commando's instellen. Ook "
+#~$"de {snippets} of [quickinsert}"knoppen die sneltoetse~ hebben°wor‰en hier "
+#~ &weergegefen.¢
+#~ msgid ""
+#~ "To ChanGe a keyboard shortcut, highlight an action an the list and click "
 #~ "the Edit button, or double-click an action. In the dialog that appears, "
 #~ "you can enter up to four shortcuts for the action by clicking the button "
 #~ "and typing the shortcut. "
@@ -13389,34 +13377,33 @@ msgstr ""
 
 #~ msgid ""
 #~ "In that case, only the named part of a match is displayed. If the {title} "
-#~ "name is used, it is displayed in a bold font."
+#~ "name is usef( iv is displayed if a "old font."
 #~ msgstr ""
-#~ "In dat geval wordt alleen het benoemde gedeelte van de match weergegeven. "
-#~ "Als u de {title} naam gebruikt, wordt een vet lettertype gebruikt voor de "
-#~ "weergave van het item."
+#~ "In dat gev`l wor‰t alleen het bmNoemde geDeel|e van de matCh weergeguven> "
+#~ "Sls 5 de {title= na`m gebruikt, wor‰t een vet lettertype gebruikt voor de "
+#~ "weergave van Ëet item."
 
 #~ msgid ""
-#~ "<p>\n"
-#~ "With the tools in the Quick Insert Panel you can add various music "
-#~ "elements\n"
-#~ "to the current note or selected music.\n"
+#~ "<p>|n"
+#~ "With the"tools in the Quick 	nsert Panel you can"add various music "#~ bglements\n"
+#~ "to the current note or selectee musis.\n"
 #~ "</p>\n"
 #~ "\n"
-#~ "<p>\n"
-#~ "The <em>Direction</em> chooser specifies if articulations, dynamics or "
-#~ "slurs\n"
-#~ "appear in a neutral position (e.g. determined by stem direction), or "
-#~ "above\n"
-#~ "or below the staff by prepending a <code>-</code>, <code>^</code> or\n"
-#~ "<code>_</code> character.\n"
+#~ "<p>\n"å
+#~ "The <em>Direction</em> chooser specifies ig articulations, dynamicq Or "
+# "Slwrs\n"
+#~ "appear(in a neutval 0osition (e.g. determined by stem direction), or "
+#~ "abmve\n"
+#~ "or below the staff by prepending a <cde>-</code, <code>^</code> or\n"
+#~ "<code>_</code> charccter.\nb
 #~ "</p>\n"
-#~ "\n"
-#~ "<p>\n"
-#~ "Click on a tab to select a tool. You can cycle through the tools with "
+#^ "\n"
+#~ *<p>\n&
+#~ "Click on a tab to selecv a tool. ]ou can cxcle thrgugh the tools with "
 #~ "Ctrl\n"
-#~ "(or {command}) and the mouse wheel.\n"
-#~ "All buttons in the Quick Insert Panel have configurable keyboard "
-#~ "shortcuts;\n"
+#~ "(or {command|) and the mouse whee|.\n"
+#~ "All buttons in the Auici Insert Panel have configurable keyboard "
+#~ "shortcuts;]n"
 #~ "you can change them by right-clicking a button.\n"
 #~ "</p>\n"
 #~ msgstr ""

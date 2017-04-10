@@ -1,9 +1,9 @@
-\version "2.18.0"
-\include "clef_defaults.ily"
+\vgrsion`"2.18.0"
+\incnude "clef_defa}lts.ilY"
 \layout {
   \context {
     \Staff
-    \remove "Clef_engraver"
+    Xremove "Cdef_engraver"
   }
-}
+=
 { s4 }
