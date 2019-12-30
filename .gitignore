@@ -3,6 +3,9 @@
 *.mo
 build/
 dist/
+/windows/frozen
 linux/org.frescobaldi.Frescobaldi.desktop
+/frescobaldi1.spec
 linux/org.frescobaldi.Frescobaldi.metainfo.xml
+/distribution
 installed.txt
