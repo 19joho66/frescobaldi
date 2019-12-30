@@ -46,7 +46,7 @@ Source: "lib\ly\*"; DestDir: "{app}\lib\ly"; Flags: ignoreversion createallsubdi
 Source: "lib\pygame\*"; DestDir: "{app}\lib\pygame"; Flags: ignoreversion createallsubdirs recursesubdirs
 Source: "lib\urllib\*"; DestDir: "{app}\lib\urllib"; Flags: ignoreversion createallsubdirs recursesubdirs
 Source: "lib\xml\*"; DestDir: "{app}\lib\xml"; Flags: ignoreversion createallsubdirs recursesubdirs
-;Source: "lib\PyQt5\plugins\*"; DestDir: "{app}\lib\PyQt5\plugins"; Flags: ignoreversion createallsubdirs recursesubdirs
+Source: "lib\PyQt5\plugins\*"; DestDir: "{app}\lib\PyQt5\plugins"; Flags: ignoreversion createallsubdirs recursesubdirs
 Source: "lib\PyQt5\uic\*"; DestDir: "{app}\lib\PyQt5\uic"; Flags: ignoreversion createallsubdirs recursesubdirs
 Source: "lib\PyQt5\Qt\plugins\*"; DestDir: "{app}\lib\PyQt5\Qt\plugins"; Flags: ignoreversion createallsubdirs recursesubdirs
 Source: "lib\PyQt5\Qt\qml\*"; DestDir: "{app}\lib\PyQt5\Qt\qml"; Flags: ignoreversion createallsubdirs recursesubdirs

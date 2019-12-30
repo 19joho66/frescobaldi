@@ -22,4 +22,4 @@ sys.path.insert(0, '..')
 from frescobaldi_app import appinfo
 
 
-subprocess.run([iscc, "/Dhomepage="+appinfo.url , "/Dversion="+appinfo.version , "/Dauthor="+appinfo.maintainer , "/Dcomments="+appinfo.description, "/Dtarget="+target_dir, "setup.iss" ])
+subprocess.run([iscc, "/Dhomepage="+appinfo.url , "/Dversion="+appinfo.version , "/Dauthor="+appinfo.maintainer , "/Dcomments="+appinfo.description, "/Dtarget="+target_dir, "setup_3.iss" ])
