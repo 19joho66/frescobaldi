@@ -3,3 +3,6 @@
 *.mo
 build/
 dist/
+/windows/frozen
+/frescobaldi1.spec
+/distribution
