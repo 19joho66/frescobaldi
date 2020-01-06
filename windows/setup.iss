@@ -123,6 +123,12 @@ Source: "lib\PyQt5\Qt\bin\Qt5QuickWidgets.dll"; DestDir: "{app}\lib\PyQt5\Qt\bin
 Source: "lib\PyQt5\Qt\bin\Qt5Xml.dll"; DestDir: "{app}\lib\PyQt5\Qt\bin"; Flags: ignoreversion
 Source: "lib\PyQt5\Qt\bin\QtWebEngineProcess.exe"; DestDir: "{app}\lib\PyQt5\Qt\bin"; Flags: ignoreversion
 Source: "lib\PyQt5\Qt\bin\ssleay32.dll"; DestDir: "{app}\lib\PyQt5\Qt\bin"; Flags: ignoreversion
+;Copy some resources files to bin (for QtWebengineProcess
+Source: "lib\PyQt5\Qt\resources\icudtl.dat"; DestDir: "{app}\lib\PyQt5\Qt\bin"; Flags: ignoreversion
+Source: "lib\PyQt5\Qt\resources\qtwebengine_devtools_resources.pak"; DestDir: "{app}\lib\PyQt5\Qt\bin"; Flags: ignoreversion
+Source: "lib\PyQt5\Qt\resources\qtwebengine_resources.pak"; DestDir: "{app}\lib\PyQt5\Qt\bin"; Flags: ignoreversion
+Source: "lib\PyQt5\Qt\resources\qtwebengine_resources_100p.pak"; DestDir: "{app}\lib\PyQt5\Qt\bin"; Flags: ignoreversion
+Source: "lib\PyQt5\Qt\resources\qtwebengine_resources_200p.pak"; DestDir: "{app}\lib\PyQt5\Qt\bin"; Flags: ignoreversion
 ;Main folder files
 Source: "api-ms-win-crt-heap-l1-1-0.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "api-ms-win-crt-locale-l1-1-0.dll"; DestDir: "{app}"; Flags: ignoreversion
