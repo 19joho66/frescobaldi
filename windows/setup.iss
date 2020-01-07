@@ -39,6 +39,7 @@ Source: "printsupport\*"; DestDir: "{app}\printsupport"; Flags: ignoreversion cr
 Source: "lib\collections\*"; DestDir: "{app}\lib\collections"; Flags: ignoreversion createallsubdirs recursesubdirs
 Source: "lib\ctypes\*"; DestDir: "{app}\lib\ctypes"; Flags: ignoreversion createallsubdirs recursesubdirs
 Source: "lib\encodings\*"; DestDir: "{app}\lib\encodings"; Flags: ignoreversion createallsubdirs recursesubdirs
+Source: "lib\html\*"; DestDir: "{app}\lib\html"; Flags: ignoreversion createallsubdirs recursesubdirs
 Source: "lib\importlib\*"; DestDir: "{app}\lib\importlib"; Flags: ignoreversion createallsubdirs recursesubdirs
 Source: "lib\json\*"; DestDir: "{app}\lib\json"; Flags: ignoreversion createallsubdirs recursesubdirs
 Source: "lib\logging\*"; DestDir: "{app}\lib\logging"; Flags: ignoreversion createallsubdirs recursesubdirs
@@ -91,9 +92,9 @@ Source: "lib\PyQt5\QtXml.pyd"; DestDir: "{app}\lib\PyQt5"; Flags: ignoreversion
 Source: "lib\PyQt5\sip.cp35-win32.pyd"; DestDir: "{app}\lib\PyQt5"; Flags: ignoreversion
 Source: "lib\PyQt5\__init__.pyc"; DestDir: "{app}\lib\PyQt5"; Flags: ignoreversion
 ;Qt5 Files
+Source: "lib\PyQt5\Qt\bin\qt.conf"; DestDir: "{app}\lib\PyQt5\Qt\bin"; Flags: ignoreversion
 Source: "lib\PyQt5\Qt\bin\concrt140.dll"; DestDir: "{app}\lib\PyQt5\Qt\bin"; Flags: ignoreversion
 Source: "lib\PyQt5\Qt\bin\d3dcompiler_47.dll"; DestDir: "{app}\lib\PyQt5\Qt\bin"; Flags: ignoreversion
-Source: "lib\PyQt5\Qt\bin\debug.log"; DestDir: "{app}\lib\PyQt5\Qt\bin"; Flags: ignoreversion
 Source: "lib\PyQt5\Qt\bin\freetype.dll"; DestDir: "{app}\lib\PyQt5\Qt\bin"; Flags: ignoreversion
 Source: "lib\PyQt5\Qt\bin\libcrypto-1_1.dll"; DestDir: "{app}\lib\PyQt5\Qt\bin"; Flags: ignoreversion
 Source: "lib\PyQt5\Qt\bin\libeay32.dll"; DestDir: "{app}\lib\PyQt5\Qt\bin"; Flags: ignoreversion
