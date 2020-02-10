@@ -1,8 +1,5 @@
-#define version "3.1.1"
-#define author "jones"
-#define homepage "test"
-#define comments ""
-#define target "frozen"
+
+
 
 [Setup]
 AppName=Frescobaldi
@@ -13,9 +10,7 @@ AppPublisherURL={#homepage}
 AppComments={#comments}
 AppId=Frescobaldi
 
-DefaultDirName={commonpf}\\Frescobaldi
-;DefaultDirName={reg:HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Frescobaldi_is1,InstallLocation}
-DisableDirPage=True
+DefaultDirName={pf}\\Frescobaldi
 DefaultGroupName=Frescobaldi
 
 UninstallDisplayIcon={app}\\frescobaldi.exe
@@ -30,110 +25,10 @@ LicenseFile=..\\..\\COPYING
 WizardImageFile=..\\frescobaldi-wininst.bmp
 WizardImageStretch=no
 
-
 DisableWelcomePage=no
 
-[CustomMessages]
-MyAppOld=The Setup detected application version 
-MyAppRequired=The installation of Frescobaldi requires Frescobaldi to be installed.%nInstall Frescobaldi before installing this update.%n%n
-MyAppTerminated=The setup of update will be terminated.
-MyAppOlderVersion=Found older Version!%n Uninstall?
-
-[Code]
-var 
-  bAbort: boolean;
-/////////////////////////////////////////////////////////////////////
-
-  
-function GetUninstallString(): String;
-var
-  sUnInstPath: String;
-  sUnInstallString: String;
-begin
-  sUnInstPath := ExpandConstant('Software\Microsoft\Windows\CurrentVersion\Uninstall\{#emit SetupSetting("AppId")}_is1');
-  sUnInstallString := '';
-  if not RegQueryStringValue(HKLM, sUnInstPath, 'UninstallString', sUnInstallString) then
-    RegQueryStringValue(HKCU, sUnInstPath, 'UninstallString', sUnInstallString);
-  Result := sUnInstallString;
-end;
-
-
-/////////////////////////////////////////////////////////////////////
-function IsUpgrade(): Boolean;
-begin
-  Result := (GetUninstallString() <> '');
-end;
-
-
-/////////////////////////////////////////////////////////////////////
-function UnInstallOldVersion(): Integer;
-var
-  sUnInstallString: String;
-  iResultCode: Integer;
-begin
-// Return Values:
-// 1 - uninstall string is empty
-// 2 - error executing the UnInstallString
-// 3 - successfully executed the UnInstallString
-// 4 - User canceled uninstall
-
-  // default return value
-  Result := 0;
-
-  // get the uninstall string of the old app
-  sUnInstallString := GetUninstallString();
-  if sUnInstallString <> '' then 
-    begin
-      sUnInstallString := RemoveQuotes(sUnInstallString);
-      if Exec(sUnInstallString, '/SILENT /NORESTART /SUPPRESSMSGBOXES','', SW_SHOWNORMAL, ewWaitUntilTerminated, iResultCode) then 
-        begin
-          if iResultCode = 1 then
-            Result := 4
-          else 
-            Result := 3;
-        end else
-          Result := 2;  
-    end else
-      Result := 1;
-    end;
-
-
-/////////////////////////////////////////////////////////////////////
-procedure CurStepChanged(CurStep: TSetupStep);
-var
-  iResultCode: Integer;
-begin
-  iResultCode := 0;
-  if (CurStep=ssInstall) then
-  begin
-    if (bAbort) then
-    begin
-      SuppressibleMsgBox('Aborting Installation', mbError, MB_OK, MB_OK)
-      Abort;
-    end;
-  end;
-  
-end;
-
-function PrepareToInstall(var NeedsRestart: Boolean): String;
-var
-  iResultCode : Integer;
-begin
- bAbort := false;
- if (IsUpgrade()) then
-    begin
-      if(IDYES=SuppressibleMsgBox('Found older Version!'+ #13#10 +' Uninstall now?', mbError, MB_YESNO, IDYES)) then
-      begin
-          UnInstallOldVersion();
-          Sleep(1000);                              
-      end else
-        bAbort := true;
-    end;
-  end;
-
-
 [InstallDelete]
-Type: filesandordirs; Name: "{app}\\*"
+Type: filesandordirs; Name: "{app}\\frescobaldi_app"
 
 [Files]
 Source: "frescobaldi_app\*"; DestDir: "{app}\frescobaldi_app"; Flags: ignoreversion createallsubdirs recursesubdirs
