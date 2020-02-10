@@ -1,7 +1,7 @@
 #! python
 
 # the Inno Setup console-mode compiler
-iscc = 'C:\Program Files (x86)\Inno Setup 5\ISCC'
+iscc = 'C:\Program Files (x86)\Inno Setup 6\ISCC'
 
 # where to build the frozen program folder
 target_dir = 'frozen'

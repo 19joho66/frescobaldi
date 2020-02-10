@@ -1,5 +1,8 @@
-
-
+#define version '3.1.1'
+#define author 'Jones'
+#define homepage 'none'
+#define comments 'none'
+#define target 'frozen'
 
 [Setup]
 AppName=Frescobaldi
@@ -10,12 +13,14 @@ AppPublisherURL={#homepage}
 AppComments={#comments}
 AppId=Frescobaldi
 
-DefaultDirName={pf}\\Frescobaldi
+DefaultDirName={commonpf}\\Frescobaldi
+;DefaultDirName={reg:HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Frescobaldi_is1,InstallLocation}
+DisableDirPage=True
 DefaultGroupName=Frescobaldi
 
 UninstallDisplayIcon={app}\\frescobaldi.exe
 Compression=lzma2
-SolidCompression=yes
+SolidCompression=no
 
 SourceDir={#target}\\
 OutputDir=..\\..\\distribution\\
@@ -25,10 +30,16 @@ LicenseFile=..\\..\\COPYING
 WizardImageFile=..\\frescobaldi-wininst.bmp
 WizardImageStretch=no
 
+
 DisableWelcomePage=no
 
+RestartApplications=no
+CloseApplications=force
+
+
+
 [InstallDelete]
-Type: filesandordirs; Name: "{app}\\frescobaldi_app"
+Type: filesandordirs; Name: "{app}\\*"
 
 [Files]
 Source: "frescobaldi_app\*"; DestDir: "{app}\frescobaldi_app"; Flags: ignoreversion createallsubdirs recursesubdirs
@@ -280,3 +291,145 @@ Name: "{app}\frescobaldi_app\__pycache__\"
 Name: "{app}\lib\PyQt5"
 Name: "{app}\lib\PyQt5\Qt\bin"
 Name: "{app}\lib"
+
+[CustomMessages]
+
+//[Code]
+//var 
+//  bAbort: boolean;
+//  PrepareToInstallWithProgressPage : TOutputProgressWizardPage;
+///////////////////////////////////////////////////////////////////////
+//procedure InitializeWizard;
+//var
+//  A: AnsiString;
+//  S: String;
+//begin
+//  // The string msgWizardPreparing has the macro '[name]' inside that I have to replace with the name of my app, stored in a define constant of my script.
+//  S := SetupMessage(msgPreparingDesc); 
+//  StringChange(S, '[name]', 'Frescobald1');
+//  A := S;
+//  PrepareToInstallWithProgressPage := CreateOutputProgressPage(SetupMessage(msgWizardPreparing), A);
+//end;
+//  
+//function GetUninstallString(): String;
+//var
+//  sUnInstPath: String;
+//  sUnInstallString: String;
+//begin
+//  sUnInstPath := ExpandConstant('Software\Microsoft\Windows\CurrentVersion\Uninstall\{#emit SetupSetting("AppId")}_is1');
+//  sUnInstallString := '';
+//  if not RegQueryStringValue(HKLM, sUnInstPath, 'UninstallString', sUnInstallString) then
+//    RegQueryStringValue(HKCU, sUnInstPath, 'UninstallString', sUnInstallString);
+//  Result := sUnInstallString;
+//end;
+//
+//
+///////////////////////////////////////////////////////////////////////
+//function IsUpgrade(): Boolean;
+//begin
+//  Result := (GetUninstallString() <> '');
+//end;
+//
+//
+///////////////////////////////////////////////////////////////////////
+//function UnInstallOldVersion(): Integer;
+//var
+//  sUnInstallString: String;
+//  iResultCode: Integer;
+//begin
+//// Return Values:
+//// 1 - uninstall string is empty
+//// 2 - error executing the UnInstallString
+//// 3 - successfully executed the UnInstallString
+//// 4 - User canceled uninstall
+//
+//  // default return value
+//  Result := 0;
+//
+//  // get the uninstall string of the old app
+//  sUnInstallString := GetUninstallString();
+//  if sUnInstallString <> '' then 
+//    begin
+//      sUnInstallString := RemoveQuotes(sUnInstallString);
+//      if Exec(sUnInstallString, '/SILENT /NORESTART /SUPPRESSMSGBOXES','', SW_SHOWNORMAL, ewWaitUntilTerminated, iResultCode) then 
+//        begin
+//          if iResultCode = 1 then
+//            Result := 4
+//          else 
+//            Result := 3;
+//        end else
+//          Result := 2;  
+//    end else
+//      Result := 1;
+//    end;
+//
+//
+///////////////////////////////////////////////////////////////////////
+//procedure CurStepChanged(CurStep: TSetupStep);
+//var
+//  iResultCode: Integer;
+//begin
+//  iResultCode := 0;
+//  if (CurStep=ssInstall) then
+//  begin
+//    //PrepareToInstallWithProgressPage.Hide;
+//    if (bAbort) then
+//    begin
+//      SuppressibleMsgBox('Aborting Installation', mbError, MB_OK, MB_OK)
+//      Abort;
+//    end;
+//  end;
+//  
+//end;
+//
+////function PrepareToInstall(var NeedsRestart: Boolean): String;
+////var
+////  iResultCode : Integer;
+////begin
+//// bAbort := false;
+// //SuppressibleMsgBox('Preparing, this may take several minutes...', mbError, MB_OK, MB_OK);
+//// if (IsUpgrade()) then
+////    begin
+////      if(IDYES=SuppressibleMsgBox('Found older Version!'+ #13#10 +' Uninstall now?', mbError, MB_YESNO, IDYES)) then
+////      begin
+//          //UnInstallOldVersion();
+//          //Sleep(1000);                              
+////      end else
+////        bAbort := true;
+////    end;
+////  end;
+//
+////function PrepareToInstall(var NeedsRestart: Boolean): String;
+////var
+////  ResultCode:   Integer;
+////begin
+////  PrepareToInstallWithProgressPage.SetProgress(0, 0);
+////  PrepareToInstallWithProgressPage.Show;
+////
+////  try
+////    // First preinstallation step: suppose to kill currently app you are going to update 
+////    //PrepareToInstallWithProgressPage.SetText('Exiting MyApp Running Instances'), '');
+////    //ExecuteCmd('taskkill', '/F /IM MyApp');
+////    // Set progress bar to 10%
+////    PrepareToInstallWithProgressPage.SetProgress(1, 10);
+////
+////    // Second preinstallation step
+////    // DoSomething usefull...
+////    // Set progress bar to 20% after done
+////    PrepareToInstallWithProgressPage.SetProgress(2, 10);
+////
+////    // ...do other preinstallation steps till the end
+////    PrepareToInstallWithProgressPage.SetProgress(10, 10);
+////  finally
+////    begin
+////      if(IDYES=SuppressibleMsgBox('Found older Version!'+ #13#10 +' Uninstall now?', mbError, MB_YESNO, IDYES)) then
+////      begin
+////          UnInstallOldVersion();
+////          Sleep(1000);                              
+////      end else
+////        bAbort := true;
+////    end;
+////    
+////  end;
+////end;
+
