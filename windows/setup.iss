@@ -1,5 +1,9 @@
-
-
+//#define name "frescobaldi"
+//#define version "3.1.1"
+//#define author "Wilbert Berendsen"
+//#define homepage "http://www.frescobaldi.org"
+//#define comments "LilyPond Music Editor"
+//#define target "frozen"
 
 [Setup]
 AppName=Frescobaldi
@@ -26,6 +30,9 @@ WizardImageFile=..\\frescobaldi-wininst.bmp
 WizardImageStretch=no
 
 DisableWelcomePage=no
+CloseApplicationsFilter=*.exe
+CloseApplications=False
+RestartApplications=False
 
 [InstallDelete]
 Type: filesandordirs; Name: "{app}\\frescobaldi_app"
@@ -280,3 +287,95 @@ Name: "{app}\frescobaldi_app\__pycache__\"
 Name: "{app}\lib\PyQt5"
 Name: "{app}\lib\PyQt5\Qt\bin"
 Name: "{app}\lib"
+
+[Code]
+var 
+  bAbort: boolean;
+  PrepareToInstallWithProgressPage : TOutputProgressWizardPage;
+/////////////////////////////////////////////////////////////////////
+  
+function GetUninstallString(): String;
+var
+  sUnInstPath: String;
+  sUnInstallString: String;
+begin
+  sUnInstPath := ExpandConstant('Software\Microsoft\Windows\CurrentVersion\Uninstall\{#emit SetupSetting("AppId")}_is1');
+  sUnInstallString := '';
+  if not RegQueryStringValue(HKLM, sUnInstPath, 'UninstallString', sUnInstallString) then
+    RegQueryStringValue(HKCU, sUnInstPath, 'UninstallString', sUnInstallString);
+  Result := sUnInstallString;
+end;
+
+
+/////////////////////////////////////////////////////////////////////
+function IsUpgrade(): Boolean;
+begin
+  Result := (GetUninstallString() <> '');
+end;
+
+
+/////////////////////////////////////////////////////////////////////
+function UnInstallOldVersion(): Integer;
+var
+  sUnInstallString: String;
+  iResultCode: Integer;
+begin
+// Return Values:
+// 1 - uninstall string is empty
+// 2 - error executing the UnInstallString
+// 3 - successfully executed the UnInstallString
+// 4 - User canceled uninstall
+
+  // default return value
+  Result := 0;
+
+  // get the uninstall string of the old app
+  sUnInstallString := GetUninstallString();
+  if sUnInstallString <> '' then 
+    begin
+      sUnInstallString := RemoveQuotes(sUnInstallString);
+      if Exec(sUnInstallString, '/SILENT /NORESTART /SUPPRESSMSGBOXES','', SW_SHOWNORMAL, ewWaitUntilTerminated, iResultCode) then 
+        begin
+          if iResultCode = 1 then
+            Result := 4
+          else 
+            Result := 3;
+        end else
+          Result := 2;  
+    end else
+      Result := 1;
+    end;
+
+
+/////////////////////////////////////////////////////////////////////
+//procedure CurStepChanged(CurStep: TSetupStep);
+//var
+//  iResultCode: Integer;
+//begin
+//  iResultCode := 0;
+//  if (CurStep=ssInstall) then
+//  begin
+//    if (bAbort) then
+//    begin
+//      SuppressibleMsgBox('Aborting Installation', mbError, MB_OK, MB_OK)
+ //     Abort;
+//    end;
+//  end;
+  
+//end;
+
+function PrepareToInstall(var NeedsRestart: Boolean): String;
+var
+  iResultCode : Integer;
+begin
+  //bAbort := false;
+  if (IsUpgrade()) then
+    begin
+      //if(IDYES=SuppressibleMsgBox('Found older Version!'+ #13#10 +' Uninstall now?', mbError, MB_YESNO, IDYES)) then
+      //begin
+        UnInstallOldVersion();
+        Sleep(1000);                              
+      //end else
+      //  bAbort := true;
+    end;
+  end;
